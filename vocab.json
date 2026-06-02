@@ -1,0 +1,407 @@
+[
+  {
+    "word": "der Wald",
+    "translation": "the forest",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "wandern",
+    "translation": "to hike",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "der Wasserfall",
+    "translation": "the waterfall",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Wanderung",
+    "translation": "the hike",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sich ausruhen",
+    "translation": "to rest",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Haus",
+    "translation": "house",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "baum",
+    "translation": "tree",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "guten Morgen",
+    "translation": "good morning",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "Hund",
+    "translation": "dog",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Katze",
+    "translation": "cat",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Überraschung",
+    "translation": "surprise",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sich anziehen",
+    "translation": "to get dressed",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich bewerben",
+    "translation": "to apply (for a job, position)",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich informieren",
+    "translation": "to inform oneself",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich kämmen",
+    "translation": "to comb oneself",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich rasieren",
+    "translation": "to shave oneself",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich konzentrieren",
+    "translation": "to concentrate",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich entschieden",
+    "translation": "decided",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich erinnern",
+    "translation": "to remember",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich ärgern",
+    "translation": "to get annoyed",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich verabschieden",
+    "translation": "to say goodbye",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich streiten",
+    "translation": "to argue",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich langweilen",
+    "translation": "to be bored",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich ruhen",
+    "translation": "to rest",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich unterhalten",
+    "translation": "to converse",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich treffen",
+    "translation": "to meet",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich freuen",
+    "translation": "to be happy, to look forward to",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich entschuldigen",
+    "translation": "to apologize",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich bedanken",
+    "translation": "to thank",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich beeilen",
+    "translation": "to hurry",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich bewegen",
+    "translation": "to move",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich entspannen",
+    "translation": "to relax",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich waschen",
+    "translation": "to wash oneself",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sich beruhigen",
+    "translation": "to calm down",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "erhalten",
+    "translation": "to receive, to obtain, to preserve",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "fühlen",
+    "translation": "to feel",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "das Gefühl",
+    "translation": "the feeling",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Übung",
+    "translation": "the exercise",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "jemanden erwarten",
+    "translation": "to expect someone",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Spaß haben",
+    "translation": "to have fun",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Spaß machen",
+    "translation": "to be fun",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "das Abenteuer",
+    "translation": "the adventure",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "das Fliegen",
+    "translation": "the flying",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Emotion",
+    "translation": "the emotion",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Anmerkung",
+    "translation": "the remark",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "einfallen",
+    "translation": "to occur, to come to mind, to collapse",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "die Freude",
+    "translation": "the joy",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sich freuen über",
+    "translation": "to be happy about",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "die Kleinigkeit",
+    "translation": "the trifle; the small thing; the little detail",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "das Wetter",
+    "translation": "the weather",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "das Geburtstagsgeschenk",
+    "translation": "the birthday present",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "das Wiedersehen",
+    "translation": "the reunion",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "klingeln",
+    "translation": "to ring",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "aus dem Häuschen sein",
+    "translation": "to be over the moon / to be ecstatic",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "überrascht sein",
+    "translation": "to be surprised",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "genießen",
+    "translation": "to enjoy",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "der Fehler",
+    "translation": "the mistake",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Prüfung bestehen",
+    "translation": "to pass the exam",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "leise",
+    "translation": "quietly",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "angucken",
+    "translation": "to look at",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "die Prüfung",
+    "translation": "the exam",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Hochzeit",
+    "translation": "the wedding",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Ring",
+    "translation": "the ring",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Führerschein",
+    "translation": "driver's license",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Geburtstag",
+    "translation": "the birthday",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Storch",
+    "translation": "the stork",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "heiraten",
+    "translation": "to marry",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "denken",
+    "translation": "to think",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "schlimm",
+    "translation": "bad",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "die Erfahrung",
+    "translation": "the experience",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Kaffee",
+    "translation": "the coffee",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "der Einstand",
+    "translation": "the entry, the start, the initiation",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "die Erde",
+    "translation": "the earth",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "das Abitur",
+    "translation": "the high school diploma (university entrance qualification)",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "gewöhnen",
+    "translation": "to get used to",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "übrigens",
+    "translation": "by the way",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "plötzlich",
+    "translation": "suddenly",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "neugierig",
+    "translation": "curious",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "entschieden",
+    "translation": "decided",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "sicher",
+    "translation": "safe, certain, sure",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "während",
+    "translation": "while",
+    "part_of_speech": "other"
+  }
+]

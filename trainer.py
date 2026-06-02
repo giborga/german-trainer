@@ -25,12 +25,35 @@ def get_word(words):
 # Generate exercise from LLM
 def generate_exercise(word):
     prompt = f"""
-You are a teacher of German.
-The student level A1 -> A2.
-Create ONE exercise for the word: "{word}"
+You help a student to learn and remember new German words on levels A1-A2.
+Assume that the student is mostly familiar with A1 vocabulary. Now they are learning A2 vocabulary.
+Create ONE exercise for the word: "{word}".
+Use A1-A2 vocabulary for that.
 Rules:
-- Type of exercise may be: translation, fill gap, grammar, correction, correct verb/noun form, correct article, correct preposition
-- Provide ONLY JSON output in this format:
+1. Type of exercises: 
+"translate from english to german",
+"fill a gap in sentence",
+"choose correct verb form",
+"write a correct article",
+"write a correct preposition",
+"write a plural form of a noun".
+
+2. The student is familiar with the following grammar on A1-A2 levels and wants to improve the usage:
+- reflexive verben,
+- nebensatz mit 'wenn' 'weil' 'dann' 'dass',
+- vergleiche mit 'als' 'wie',
+- komparativ, superlativ,
+- modalverben,
+- modalverben in Präteritum,
+- akkusativ und dativ artikel,
+- possesivartikel im dativ,
+- genitiv: name+s,
+- perfekt: satzklemmer,
+- partizip II.
+
+3. Choose type and logical grammar of an exercise depending on the chosen word.
+
+4. Provide ONLY JSON output in this format:
 {{
   "exercise": "...",
   "answer": "..."
@@ -43,7 +66,7 @@ Rules:
             {"role": "system", "content": "You are a German language teacher."},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.7
+        temperature=1
     )
     # print("response.choices[0]:", response.choices[0])
     return json.loads(response.choices[0].message.content)  # response.choices[0]: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "exercise": "Übersetze ins Deutsche: \'The waterfall is beautiful.\'",\n  "answer": "Der Wasserfall ist schön."\n}', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))
@@ -63,14 +86,16 @@ Task:
 2. If correct, reply ONLY:
 {{"result": "correct"}}
 
-3. If incorrect, reply ONLY:
+3. If incorrect, reply:
 {{
   "result": "incorrect",
   "correct_answer": "...",
   "explanation": "..."
 }}
 
-No extra text. Only JSON.
+4. Return only JSON.
+5. Explanation should be in English.
+6. Wrong capitalization of words is not considered as a mistake.
 """
 
     response = client.chat.completions.create(
