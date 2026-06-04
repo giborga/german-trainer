@@ -46,24 +46,60 @@ Tasks:
 
 Allowed parts_of_speech:
 - noun
-- verb
+- verb (examples: verb with separable prefix: anrufen, reflexive verb: sich beeilen, regular verb: gehen)
 - adjective
 - adverb
-- other
+- other (examples: phrases like "ausflug machen", "spazieren gehen")
 
-4. If there is a phrase with several parts of speech, assign parts_of_speech="other".
 5. If no such word exists, assign word="", "translation"="", "part_of_speech"="".
-6. If parts_of_speech=noun, add a correct article to the word.
+6. If noun:
+return:
+{{
+  "word": "...",  [note: noun in singular form]
+  "translation": "...",
+  "part_of_speech": "noun",
+  "article": "...",
+  "plural": "..." [note: noun in plural form]
+}}
 
-Return ONLY valid JSON:
+If verb:
+return:
+{{
+    "word": "...",
+    "translation": "...",
+    "part_of_speech": "verb",
+    "reflexive": true/false,
+    "separable": true/false,
+    "perfekt": "..." (example: "hat getanzt")
+}}
 
+If adjective:
+return:
 {{
   "word": "...",
   "translation": "...",
-  "part_of_speech": "..."
+  "part_of_speech": "adjective",
+  "comparative": "...",
+  "superlative": "..."
 }}
 
-No markdown. No explanations.
+If adverb:
+return:
+{{
+  "word": "...",
+  "translation": "...",
+  "part_of_speech": "adverb"
+}}
+
+If other:
+return:
+{{
+  "word": "...",
+  "translation": "...",
+  "part_of_speech": "other"
+}}
+
+7. Return ONLY valid JSON. No markdown. No explanations.
 """
 
     response = client.chat.completions.create(
@@ -86,6 +122,51 @@ No markdown. No explanations.
     return json.loads(content)
 
 
+# validate metadata returned by llm
+def validate_metadata(data):
+    pos = data["part_of_speech"]
+
+    if pos == "noun":
+        required = [
+            "word",
+            "translation",
+            "article",
+            "plural"]
+
+    if pos == "verb":
+        required = [
+            "word",
+            "translation",
+            "reflexive",
+            "separable",
+            "perfekt"]
+
+    if pos == "adjective":
+        required = [
+            "word",
+            "translation",
+            "comparative",
+            "superlative"
+        ]
+
+    if pos == "adverb":
+        required = [
+            "word",
+            "translation"]
+
+    if pos == "other":
+        required = [
+            "word",
+            "translation"]
+
+    for field in required:
+        if field not in data:
+            raise ValueError(f"Missing field: {field}")
+
+    # print("Metadata validated")
+    return True
+
+
 # prevent duplicates
 def word_exists(vocab, new_word):
 
@@ -102,7 +183,7 @@ def main():
     # validate arguments
     if len(sys.argv) < 3:
         print('Usage:')
-        print('python add_words.py add "word1, word2, phrase1"')
+        print('python add_words.py add "word1, word2, phrase1, ..."')
         return
 
     command = sys.argv[1]
@@ -138,20 +219,20 @@ def main():
                 print(f"Skipped duplicate: {corrected_word}")
                 continue
 
+            validate_metadata(enriched)
             vocab.append(enriched)
 
             print("Added:")
             print(json.dumps(enriched, ensure_ascii=False, indent=2))
 
+            # save updated vocab
+            save_vocab(vocab)
+
+            print("\nVocabulary updated successfully.")
+
         except Exception as e:
             print(f"Error processing '{word}':")
             print(e)
-
-        # save updated vocab
-        save_vocab(vocab)
-
-        print("\nVocabulary updated successfully.")
-
 
 if __name__ == "__main__":
     main()
