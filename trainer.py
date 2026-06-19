@@ -1,25 +1,18 @@
-from openai import OpenAI
-from dotenv import load_dotenv
+import argparse
 import os
 import re
-import random
-import json
+
+from openai import OpenAI
+from dotenv import load_dotenv
+
 from config import MODEL
 from exercise_factory import create_exercise
+from vocabulary import Vocabulary
 
 # load API key from .env
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
-
-# load vocabulary
-def load_vocab():
-    with open("vocab.json", "r", encoding="utf-8") as f:
-        return json.load(f)
-
-# pick random word
-def get_word(vocab) -> dict:
-    return random.choice(vocab)
 
 def count_gaps(sentence: str) -> int:
     return len(re.findall("___", sentence))
@@ -85,12 +78,28 @@ def explain_mistake(correct_answer, user_answer, client, model):
 
 # main loop
 def main():
-    vocab = load_vocab()
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("-n", "--number", type=int, default=5, help="Number of excercises")
+    arg_parser.add_argument("-w", "--word", help="Request exercise with a specific word")
+    args = arg_parser.parse_args()
+
+    vocab = Vocabulary()
+
+    if args.word is not None:
+        word_data = vocab.get_word_data(args.word)
+
+        def sample_word_data():
+            yield from [word_data]
+
+    else:
+        def sample_word_data():
+            while True:
+                yield vocab.get_word()
+
     print("\nGerman Trainer started. Type CTRL+C to exit.\n")
     count = 0
 
-    while count <= 5:  # play with 5 words only
-        word_data = get_word(vocab)
+    for word_data in sample_word_data():
         print(f"\nWORD: {word_data['word']}\n")
 
         # 1. create exercise object
@@ -123,6 +132,8 @@ def main():
             print(f"\nExplanation: {explanation}")
 
         count += 1
+        if count == args.number:
+            break
 
 
 if __name__ == "__main__":
