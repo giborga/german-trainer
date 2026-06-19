@@ -1002,5 +1002,102 @@
     "part_of_speech": "noun",
     "article": "das",
     "plural": "Dinge"
+  },
+  {
+    "word": "Betrag",
+    "translation": "amount, sum",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Beträge"
+  },
+  {
+    "word": "Überweisung",
+    "translation": "transfer (e.g. bank transfer)",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Überweisungen"
+  },
+  {
+    "word": "Einbürgerung",
+    "translation": "naturalization",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Einbürgerungen"
+  },
+  {
+    "word": "besonders",
+    "translation": "especially",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "weniger",
+    "translation": "less",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "wichtig",
+    "translation": "important",
+    "part_of_speech": "adjective",
+    "comparative": "wichtiger",
+    "superlative": "am wichtigsten"
+  },
+  {
+    "word": "Angabe",
+    "translation": "information, statement, specification",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Angaben"
+  },
+  {
+    "word": "Überall",
+    "translation": "everywhere",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "Handy",
+    "translation": "mobile phone",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Handys"
+  },
+  {
+    "word": "über",
+    "translation": "over, above, about",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "berühmt",
+    "translation": "famous",
+    "part_of_speech": "adjective",
+    "comparative": "berühmter",
+    "superlative": "am berühmtesten"
+  },
+  {
+    "word": "Politiker",
+    "translation": "politician",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Politiker"
+  },
+  {
+    "word": "Schriftsteller",
+    "translation": "writer",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Schriftsteller"
+  },
+  {
+    "word": "besondere",
+    "translation": "special",
+    "part_of_speech": "adjective",
+    "comparative": "besonderer",
+    "superlative": "am besondersten"
+  },
+  {
+    "word": "Atmosphäre",
+    "translation": "atmosphere",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Atmosphären"
   }
 ]

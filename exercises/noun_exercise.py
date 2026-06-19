@@ -1,42 +1,20 @@
-import json
 from exercises.base_exercise import BaseExercise
+from prompts.noun_prompts import NOUN_PROMPT
 
-class NounExercise(BaseExercise):
+class NounFillInBlankExercise(BaseExercise):
 
-    def generate_exercise(self):
+    def _build_prompt(self) -> str:
         word = self.word_data["word"]
         article = self.word_data["article"]
         plural = self.word_data["plural"]
+        return NOUN_PROMPT.format(word=word, article=article, plural=plural)
 
-        prompt = f"""
-You help a student to learn and remember German nouns on level A2 providing an exercise and a correct answer.
-The German noun is: {word}.
-Correct article is: {article}.
-Plural form: {plural}.
-Rules for exercise and answer generation:
-1. Generate ONE A2 exercise.
-2. Generate a correct answer.
-3. Examples of an exercise and an answer for noun article:
-Exercise_1: "Complete with correct article: ___ große Hund spielt im Garten."
-Answer_1: "der"
-Exercise_2: "Complete with correct article: Ich kaufe ___ alten Tisch für mein Arbeitszimmer."
-Answer_2: "den"
-Exercise_3: "Complete with correct article: Ich spreche mit ___ freundlichen Lehrerin über die Prüfung."
-Answer_3: "der"
-4. Examples of an exercise and an answer for noun plural form:
-Exercise_1: "Complete with correct plural form: Im Herbst fallen viele _______ von den Bäumen."
-Answer_1: "Blätter"
-Exercise_2: "Complete with correct plural form: Am Wochenende besuchen wir verschiedene _____ in Berlin."
-Answer_2: "Museen"
-5. Exercise is written in English.
-6. Return ONLY JSON:
-{{
-  "exercise": "...",
-  "answer": "..."
-}}
-"""
+    def generate_exercise(self):
+        prompt = self._build_prompt()
+        raw_exercise_data = self.call_llm(prompt)
+        print(raw_exercise_data)
 
-        return self.call_llm(prompt)
+        return self.censor_exercise(raw_exercise_data)
 
     # def check_exercise(self, user_answer, correct_answer):
-    #     return (user_answer.strip().lower() == correct_answer.strip().lower())
+    #     pass
