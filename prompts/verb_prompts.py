@@ -5,7 +5,7 @@ Rules for exercise and answer generation:
 1. Create one A2 exercise.
 2. Generate an instruction for the exercise in English.
 3. Provide full sentence in German.
-4. Generate list of missing verb parts, that will be used later for fill-in blank exercise.
+4. Generate list of missing "word" parts, that will be used later for fill-in blank exercise.
 5. Return only JSON:
 {{
   "instruction": "...",
@@ -106,15 +106,15 @@ Rules for exercise and answer generation:
 6. While creating "missing_words", use verbs in a correct form and order from the sentence.
 7. Examples of correctly generated exercises:
 Exercise_1 - correct usage in perfect tense:
-{
+{{
     "instruction": "Complete the sentence:",
     "sentence": "Mir ist gestern plötzlich ein guter Gedanke eingefallen.",
     "missing_words": ["ist", "eingefallen"]
-}
+}}
 Exercise_2 - correct usage in perfect tense:
-{
+{{
     "instruction": "Complete the sentence:",
     "sentence": "Sie hat das Essen gekocht.",
     "missing_words": ["hat", "gekocht"]
-}
+}}
 """

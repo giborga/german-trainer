@@ -1,35 +1,31 @@
-from openai import OpenAI
-from dotenv import load_dotenv
+import argparse
 import os
 import re
-import random
-import json
+
+from openai import OpenAI
+from dotenv import load_dotenv
+
 from config import MODEL
 from exercise_factory import create_exercise
+from vocabulary import Vocabulary
 
 # load API key from .env
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
-# load vocabulary
-def load_vocab():
-    with open("vocab.json", "r", encoding="utf-8") as f:
-        return json.load(f)
-
-# pick random word
-def get_word(vocab) -> dict:
-    return random.choice(vocab)
-
 def count_gaps(sentence: str) -> int:
+    print("number of gaps", len(re.findall("___", sentence)))
     return len(re.findall("___", sentence))
 
 # list words from answer
 def parse_user_answer(raw_answer: str) -> list:
+    print("Parsing user answer: ", re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer))
     return re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer)
 
 # check if number of words in answer matches number of gaps in sentence
 def has_expected_word_count(user_answer: list, expected_length: int) -> bool:
+    print("len(user_answer) == expected_length: ", len(user_answer) == expected_length)
     return len(user_answer) == expected_length
 
 # ask for user's answer and provide 3 attempts for filling gaps
@@ -37,6 +33,8 @@ def prompt_user_answer(expected_length: int, max_attempts: int = 3):
     for num_attempts in range(max_attempts):
         user_answer = parse_user_answer(input("Answer: "))
 
+        print("user_answer: ", user_answer)
+        print("expected_length: ", expected_length)
         if has_expected_word_count(user_answer, expected_length):
             return user_answer
 
@@ -85,13 +83,32 @@ def explain_mistake(correct_answer, user_answer, client, model):
 
 # main loop
 def main():
-    vocab = load_vocab()
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("-n", "--number", type=int, default=5, help="Number of exercises")
+    arg_parser.add_argument("-w", "--word", help="Request exercise with a specific word")
+    args = arg_parser.parse_args()
+    print("args: ", type(args), args)  # <class 'argparse.Namespace'> Namespace(number=5, word='wandern')
+
+    vocab = Vocabulary()
+    print("vocab: ", vocab)  # <vocabulary.Vocabulary object at 0x106c59c10>
+
+    if args.word is not None:
+        word_data = vocab.get_word_data(args.word)
+        print("word_data: ", word_data)  # {'word': 'wandern', 'translation': 'to hike', 'part_of_speech': 'verb', 'reflexive': False, 'separable': False, 'perfekt': 'ist gewandert'}
+
+        def sample_word_data():
+            yield from [word_data]
+
+    else:
+        def sample_word_data():
+            while True:
+                yield vocab.get_word()
+
     print("\nGerman Trainer started. Type CTRL+C to exit.\n")
     count = 0
 
-    while count <= 5:  # play with 5 words only
-        word_data = get_word(vocab)
-        print(f"\nWORD: {word_data['word']}\n")
+    for word_data in sample_word_data():
+        print(f"\nWORD: {word_data['word']}\n")  # wandern
 
         # 1. create exercise object
         exercise_obj = create_exercise(word_data, client, MODEL)
@@ -123,6 +140,10 @@ def main():
             print(f"\nExplanation: {explanation}")
 
         count += 1
+        print("args.number: ", args.number)
+
+        if count == args.number:
+            break
 
 
 if __name__ == "__main__":
