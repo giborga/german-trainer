@@ -1099,5 +1099,374 @@
     "part_of_speech": "noun",
     "article": "die",
     "plural": "Atmosphären"
+  },
+  {
+    "word": "Ausstellung",
+    "translation": "exhibition",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Ausstellungen"
+  },
+  {
+    "word": "zuhören",
+    "translation": "to listen",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "hat zugehört"
+  },
+  {
+    "word": "erzählen",
+    "translation": "to tell, to narrate",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat erzählt"
+  },
+  {
+    "word": "langsam",
+    "translation": "slowly",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "fragen stellen",
+    "translation": "to ask questions",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "werden",
+    "translation": "to become",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "ist geworden"
+  },
+  {
+    "word": "züchten",
+    "translation": "to raise, to farm, to cultivate, to breed",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gezüchtet"
+  },
+  {
+    "word": "Softwareentwickler",
+    "translation": "software developer",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Softwareentwickler"
+  },
+  {
+    "word": "vorbereiten",
+    "translation": "to prepare",
+    "part_of_speech": "verb",
+    "reflexive": true,
+    "separable": true,
+    "perfekt": "hat vorbereitet"
+  },
+  {
+    "word": "stören",
+    "translation": "to disturb, to bother",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gestört"
+  },
+  {
+    "word": "ausmachen",
+    "translation": "to turn off, to make up, to matter",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "hat ausgemacht"
+  },
+  {
+    "word": "zumachen",
+    "translation": "to close",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "hat zugemacht"
+  },
+  {
+    "word": "vorher",
+    "translation": "before",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "Blatt",
+    "translation": "leaf, sheet",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Blätter"
+  },
+  {
+    "word": "bereitlegen",
+    "translation": "to prepare, to lay out",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "hat bereitgelegt"
+  },
+  {
+    "word": "sofort",
+    "translation": "immediately",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "deutlich",
+    "translation": "clear, distinct",
+    "part_of_speech": "adjective",
+    "comparative": "deutlicher",
+    "superlative": "am deutlichsten"
+  },
+  {
+    "word": "Notiz",
+    "translation": "note",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Notizen"
+  },
+  {
+    "word": "lächeln",
+    "translation": "to smile",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gelächelt"
+  },
+  {
+    "word": "Geschäftsreise",
+    "translation": "business trip",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Geschäftsreisen"
+  },
+  {
+    "word": "notieren",
+    "translation": "to note, to write down",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat notiert"
+  },
+  {
+    "word": "Bahnhofshalle",
+    "translation": "train station hall",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Bahnhofshallen"
+  },
+  {
+    "word": "Fahrkarte",
+    "translation": "ticket (for travel)",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Fahrkarten"
+  },
+  {
+    "word": "Gepäck",
+    "translation": "luggage",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Gepäckstücke"
+  },
+  {
+    "word": "Koffer",
+    "translation": "suitcase",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Koffer"
+  },
+  {
+    "word": "Zug",
+    "translation": "train",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Züge"
+  },
+  {
+    "word": "Bahn",
+    "translation": "railway, train, track",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Bahnen"
+  },
+  {
+    "word": "Schild",
+    "translation": "shield, sign",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Schilder"
+  },
+  {
+    "word": "Fahrgast",
+    "translation": "passenger",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Fahrgäste"
+  },
+  {
+    "word": "Schaffner",
+    "translation": "conductor",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Schaffner"
+  },
+  {
+    "word": "Durchsage",
+    "translation": "announcement",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Durchsagen"
+  },
+  {
+    "word": "Fahrplan",
+    "translation": "timetable, schedule",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Fahrpläne"
+  },
+  {
+    "word": "Schalter",
+    "translation": "switch, counter, desk",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Schalter"
+  },
+  {
+    "word": "abfahren",
+    "translation": "to depart",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "ist abgefahren"
+  },
+  {
+    "word": "Abfahrt",
+    "translation": "departure",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Abfahrten"
+  },
+  {
+    "word": "Wagen",
+    "translation": "car, wagon",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Wagen"
+  },
+  {
+    "word": "Bahnsteig",
+    "translation": "platform",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Bahnsteige"
+  },
+  {
+    "word": "Gleis",
+    "translation": "platform, track",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Gleise"
+  },
+  {
+    "word": "ankommen",
+    "translation": "to arrive",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "perfekt": "ist angekommen"
+  },
+  {
+    "word": "Ankunft",
+    "translation": "arrival",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Ankünfte"
+  },
+  {
+    "word": "Automat",
+    "translation": "vending machine",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Automaten"
+  },
+  {
+    "word": "warten",
+    "translation": "to wait",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gewartet"
+  },
+  {
+    "word": "hinter",
+    "translation": "behind",
+    "part_of_speech": "other"
+  },
+  {
+    "word": "tragen",
+    "translation": "to carry, to wear",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat getragen"
+  },
+  {
+    "word": "achten",
+    "translation": "to respect, to pay attention to",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat geachtet"
+  },
+  {
+    "word": "Kasus",
+    "translation": "case",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Kasus"
+  },
+  {
+    "word": "liegen",
+    "translation": "to lie (be situated, to be located)",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gelegen"
+  },
+  {
+    "word": "Brücke",
+    "translation": "bridge",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Brücken"
+  },
+  {
+    "word": "sonst",
+    "translation": "otherwise, besides, else",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "Markt",
+    "translation": "market",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Märkte"
+  },
+  {
+    "word": "Stadtrundfahrt",
+    "translation": "city tour",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Stadtrundfahrten"
+  },
+  {
+    "word": "Grund",
+    "translation": "reason, ground, basis",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Gründe"
   }
 ]
