@@ -12,7 +12,7 @@ class NounFillInBlankExercise(BaseExercise):
     def generate_exercise(self):
         prompt = self._build_prompt()
         raw_exercise_data = self.call_llm(prompt)
-        print(raw_exercise_data)
+        print("raw_exercise_data noun: ", raw_exercise_data)
 
         return self.censor_exercise(raw_exercise_data)
 

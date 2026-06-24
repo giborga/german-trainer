@@ -40,6 +40,9 @@ class BaseExercise:
             sentence = censor(sentence, w)
 
         exercise_data["sentence"] = sentence
+
+        print("exercise_data: ", exercise_data)
+
         return exercise_data
 
     def generate_exercise(self):
