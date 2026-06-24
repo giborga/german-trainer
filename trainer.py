@@ -1,130 +1,149 @@
+import argparse
+import os
+import re
+
 from openai import OpenAI
 from dotenv import load_dotenv
-import os
-import random
-import json
-from config import MODEL
 
-# Load API key from .env
+from config import MODEL
+from exercise_factory import create_exercise
+from vocabulary import Vocabulary
+
+# load API key from .env
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
+def count_gaps(sentence: str) -> int:
+    print("number of gaps", len(re.findall("___", sentence)))
+    return len(re.findall("___", sentence))
 
-# Load vocabulary
-def load_vocab():
-    with open("vocab.txt", "r", encoding="utf-8") as f:
-        words = [w.strip() for w in f.readlines() if w.strip()]
-    return words
+# list words from answer
+def parse_user_answer(raw_answer: str) -> list:
+    print("Parsing user answer: ", re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer))
+    return re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer)
 
-# Pick random word
-def get_word(words):
-    return random.choice(words)
+# check if number of words in answer matches number of gaps in sentence
+def has_expected_word_count(user_answer: list, expected_length: int) -> bool:
+    print("len(user_answer) == expected_length: ", len(user_answer) == expected_length)
+    return len(user_answer) == expected_length
 
+# ask for user's answer and provide 3 attempts for filling gaps
+def prompt_user_answer(expected_length: int, max_attempts: int = 3):
+    for num_attempts in range(max_attempts):
+        user_answer = parse_user_answer(input("Answer: "))
 
-# Generate exercise from LLM
-def generate_exercise(word):
+        print("user_answer: ", user_answer)
+        print("expected_length: ", expected_length)
+        if has_expected_word_count(user_answer, expected_length):
+            return user_answer
+
+        else:
+            print(f"Please provide exactly {expected_length} words.")
+
+    raise ValueError(f"Sentence contains {expected_length} gaps, but only {len(user_answer)} words were provided.")
+
+# check answer
+def check_exercise_locally(correct_answer, user_answer):
+
+    def normalize(answer):
+        return [word.strip().lower().replace("  ", " ") for word in answer]
+
+    def remove_umlaut(answer):
+        table = str.maketrans(
+            {"ä": "a", "ö": "o", "ü": "u", "Ä": "A", "Ö": "O", "Ü": "U", "ß": "ss"}
+        )
+        return [word.translate(table) for word in answer]
+
+    return normalize(remove_umlaut(correct_answer)) == normalize(remove_umlaut(user_answer))
+
+# fill-in gaps in sentence by user's answer
+def fill_gaps(answer: list, sentence: str) -> str:
+    """
+    :param answer: ['ziehe', 'mich', 'an']
+    :param sentence: 'Am Morgen ___ ich ___ schnell ___, weil ich keine Zeit habe.'
+    :return: 'Am Morgen ziehe ich mich schnell an, weil ich keine Zeit habe.'
+    """
+    words_iter = iter(answer)
+    return re.sub(r"___", lambda match: next(words_iter), sentence)
+
+# explain mistake only if the answer is incorrect
+def explain_mistake(correct_answer, user_answer, client, model):
     prompt = f"""
-You are a teacher of German.
-The student level A1 -> A2.
-Create ONE exercise for the word: "{word}"
-Rules:
-- Type of exercise may be: translation, fill gap, grammar, correction, correct verb/noun form, correct article, correct preposition
-- Provide ONLY JSON output in this format:
-{{
-  "exercise": "...",
-  "answer": "..."
-}}
-"""
+        Correct answer: {correct_answer}
+        Student answer: {user_answer}
+        Explain the mistake in English. Maximum 5 sentences.
+        """
+    response = client.chat.completions.create(model=model, messages=[
+        {"role": "system", "content": "You are a trainer of German language."},
+        {"role": "user", "content": prompt}], temperature=0)
 
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": "You are a German language teacher."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.7
-    )
-    # print("response.choices[0]:", response.choices[0])
-    return json.loads(response.choices[0].message.content)  # response.choices[0]: Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "exercise": "Übersetze ins Deutsche: \'The waterfall is beautiful.\'",\n  "answer": "Der Wasserfall ist schön."\n}', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))
+    return response.choices[0].message.content
 
 
-# Check answer
-def check_answer(exercise, correct_answer, user_answer):
-
-    prompt = f"""
-You are a German teacher.
-Exercise: {exercise}
-Correct answer: {correct_answer}
-Student answer: {user_answer}
-
-Task:
-1. Check if student answer is correct.
-2. If correct, reply ONLY:
-{{"result": "correct"}}
-
-3. If incorrect, reply ONLY:
-{{
-  "result": "incorrect",
-  "correct_answer": "...",
-  "explanation": "..."
-}}
-
-No extra text. Only JSON.
-"""
-
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": "You check German exercises."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0
-    )
-
-    return json.loads(response.choices[0].message.content)
-
-
-# Main loop
+# main loop
 def main():
-    words = load_vocab()
-    # print(words)
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("-n", "--number", type=int, default=5, help="Number of exercises")
+    arg_parser.add_argument("-w", "--word", help="Request exercise with a specific word")
+    args = arg_parser.parse_args()
+    print("args: ", type(args), args)  # <class 'argparse.Namespace'> Namespace(number=5, word='wandern')
+
+    vocab = Vocabulary()
+    print("vocab: ", vocab)  # <vocabulary.Vocabulary object at 0x106c59c10>
+
+    if args.word is not None:
+        word_data = vocab.get_word_data(args.word)
+        print("word_data: ", word_data)  # {'word': 'wandern', 'translation': 'to hike', 'part_of_speech': 'verb', 'reflexive': False, 'separable': False, 'perfekt': 'ist gewandert'}
+
+        def sample_word_data():
+            yield from [word_data]
+
+    else:
+        def sample_word_data():
+            while True:
+                yield vocab.get_word()
 
     print("\nGerman Trainer started. Type CTRL+C to exit.\n")
-
     count = 0
 
-    while count <= 5:  # play with 5 words only
-        word = get_word(words)
+    for word_data in sample_word_data():
+        print(f"\nWORD: {word_data['word']}\n")  # wandern
 
-        print(f"\nWORD: {word}\n")
+        # 1. create exercise object
+        exercise_obj = create_exercise(word_data, client, MODEL)
 
-        # 1. generate exercise
-        raw = generate_exercise(word)
-        # print("RAW LLM OUTPUT:\n")
-        # print(raw)
+        # 2. generate a particular type of exercise
+        exercise_data = exercise_obj.generate_exercise()
 
-        exercise = raw["exercise"]
-        correct_answer = raw["answer"]
+        full_sentence = exercise_data["full_sentence"]
+        instruction = exercise_data["instruction"]
+        sentence = exercise_data["sentence"]
+        correct_answer = exercise_data["missing_words"]
 
-        print(exercise)
+        exercise = instruction + " " + sentence
+        print("Exercise: ", "\n" + exercise)
 
-        # 2. enter answer
-        user_answer = input("Answer: ")
+        # 3. enter answer
+        user_answer = prompt_user_answer(expected_length=count_gaps(sentence))
+        # 4. check answer
+        is_correct = check_exercise_locally(correct_answer, user_answer)
 
-        # 3. check answer
-        result = check_answer(exercise, correct_answer, user_answer)
-
-        if result["result"] == "correct":
+        if is_correct:
             print("✅ Correct!")
         else:
+            # 5. Explain mistake
+            filled_user_answer = fill_gaps(user_answer, sentence)
+            explanation = explain_mistake(full_sentence, filled_user_answer, client, MODEL)
             print("❌ Incorrect")
-            print("\nCorrect answer:")
-            print(result["correct_answer"])
-            print("\nExplanation:")
-            print(result["explanation"])
+            print(f"\nCorrect answer: {full_sentence}")
+            print(f"\nExplanation: {explanation}")
 
         count += 1
+        print("args.number: ", args.number)
+
+        if count == args.number:
+            break
 
 
 if __name__ == "__main__":
