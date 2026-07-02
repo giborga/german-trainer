@@ -6,10 +6,10 @@ Plural form is: {plural}.
 Rules for exercise and answer generation:
 1. Create one A2 exercise.
 2. Generate an "instruction" for the exercise in English.
-3. Provide full "sentence" in German.
+3. Provide FULL "sentence" in German without gaps.
 4. Generate list of "missing_words", that will be used later.
 5. "missing_words" may be an article or noun's plural form.
-6. While creating "missing_words", use the noun and its article in a correct form and order for the sentence.
+6. While creating "missing_words", use the noun '{word}' and its article in a correct form and order for the sentence.
 5. Return only JSON:
 {{
   "instruction": "...",
