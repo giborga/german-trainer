@@ -4,7 +4,8 @@
     "translation": "forest",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Wälder"
+    "plural": "Wälder",
+    "date_added": "2026-01-01"
   },
   {
     "word": "wandern",
@@ -12,21 +13,24 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "ist gewandert"
+    "perfekt": "ist gewandert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Wasserfall",
     "translation": "the waterfall",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Wasserfälle"
+    "plural": "Wasserfälle",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Wanderung",
     "translation": "the hike",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Wanderungen"
+    "plural": "Wanderungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich ausruhen",
@@ -34,42 +38,48 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich ausgeruht"
+    "perfekt": "hat sich ausgeruht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Haus",
     "translation": "house",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Häuser"
+    "plural": "Häuser",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Baum",
     "translation": "tree",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Bäume"
+    "plural": "Bäume",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Hund",
     "translation": "dog",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Hunde"
+    "plural": "Hunde",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Katze",
     "translation": "cat",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Katzen"
+    "plural": "Katzen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Überraschung",
     "translation": "surprise",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Überraschungen"
+    "plural": "Überraschungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich anziehen",
@@ -77,7 +87,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich angezogen"
+    "perfekt": "hat sich angezogen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich bewerben",
@@ -85,7 +96,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich beworben"
+    "perfekt": "hat sich beworben",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich informieren",
@@ -93,7 +105,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich informiert"
+    "perfekt": "hat sich informiert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich kämmen",
@@ -101,7 +114,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gekämmt"
+    "perfekt": "hat sich gekämmt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich rasieren",
@@ -109,7 +123,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich rasiert"
+    "perfekt": "hat sich rasiert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich konzentrieren",
@@ -117,7 +132,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich konzentriert"
+    "perfekt": "hat sich konzentriert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich entschieden",
@@ -125,7 +141,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entschieden"
+    "perfekt": "hat sich entschieden",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich erinnern",
@@ -133,7 +150,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich erinnert"
+    "perfekt": "hat sich erinnert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich ärgern",
@@ -141,7 +159,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich geärgert"
+    "perfekt": "hat sich geärgert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich verabschieden",
@@ -149,7 +168,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich verabschiedet"
+    "perfekt": "hat sich verabschiedet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich streiten",
@@ -157,7 +177,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat gestritten"
+    "perfekt": "hat gestritten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich langweilen",
@@ -165,7 +186,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gelangweilt"
+    "perfekt": "hat sich gelangweilt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich ruhen",
@@ -173,7 +195,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich geruht"
+    "perfekt": "hat sich geruht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich unterhalten",
@@ -181,7 +204,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich unterhalten"
+    "perfekt": "hat sich unterhalten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich treffen",
@@ -189,7 +213,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich getroffen"
+    "perfekt": "hat sich getroffen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich freuen",
@@ -197,7 +222,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gefreut"
+    "perfekt": "hat sich gefreut",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich entschuldigen",
@@ -205,7 +231,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entschuldigt"
+    "perfekt": "hat sich entschuldigt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich bedanken",
@@ -213,7 +240,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich bedankt"
+    "perfekt": "hat sich bedankt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich beeilen",
@@ -221,7 +249,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich beeilt"
+    "perfekt": "hat sich beeilt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich bewegen",
@@ -229,7 +258,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich bewegt"
+    "perfekt": "hat sich bewegt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich entspannen",
@@ -237,7 +267,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entspannt"
+    "perfekt": "hat sich entspannt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich waschen",
@@ -245,7 +276,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gewaschen"
+    "perfekt": "hat sich gewaschen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich beruhigen",
@@ -253,7 +285,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich beruhigt"
+    "perfekt": "hat sich beruhigt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "erhalten",
@@ -261,7 +294,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat erhalten"
+    "perfekt": "hat erhalten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "fühlen",
@@ -269,21 +303,24 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat gefühlt"
+    "perfekt": "hat gefühlt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Gefühl",
     "translation": "the feeling",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Gefühle"
+    "plural": "Gefühle",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Übung",
     "translation": "exercise",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Übungen"
+    "plural": "Übungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "erwarten",
@@ -291,45 +328,52 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat erwartet"
+    "perfekt": "hat erwartet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Spaß haben",
     "translation": "to have fun",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Spaß machen",
     "translation": "to be fun",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Abenteuer",
     "translation": "the adventure",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Abenteuer"
+    "plural": "Abenteuer",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fliegen",
     "translation": "flying",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Fliegen"
+    "plural": "Fliegen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Emotion",
     "translation": "emotion",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Emotionen"
+    "plural": "Emotionen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Anmerkung",
     "translation": "the remark, the comment, the annotation",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Anmerkungen"
+    "plural": "Anmerkungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "einfallen",
@@ -337,14 +381,16 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "ist eingefallen"
+    "perfekt": "ist eingefallen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Freude",
     "translation": "joy",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Freuden"
+    "plural": "Freuden",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich freuen über",
@@ -352,35 +398,40 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gefreut über"
+    "perfekt": "hat sich gefreut über",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Kleinigkeit",
     "translation": "trifle, small thing, little detail",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Kleinigkeiten"
+    "plural": "Kleinigkeiten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Wetter",
     "translation": "weather",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Wetter"
+    "plural": "Wetter",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Geburtstagsgeschenk",
     "translation": "birthday present",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Geburtstagsgeschenke"
+    "plural": "Geburtstagsgeschenke",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Wiedersehen",
     "translation": "reunion",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Wiedersehen"
+    "plural": "Wiedersehen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "klingeln",
@@ -388,17 +439,20 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat geklingelt"
+    "perfekt": "hat geklingelt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "aus dem Häuschen sein",
     "translation": "to be over the moon; to be very excited",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "überrascht sein",
     "translation": "to be surprised",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "genießen",
@@ -406,24 +460,28 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat genossen"
+    "perfekt": "hat genossen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fehler",
     "translation": "the mistake, the error",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Fehler"
+    "plural": "Fehler",
+    "date_added": "2026-01-01"
   },
   {
     "word": "eine Prüfung bestehen",
     "translation": "to pass an exam",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "leise",
     "translation": "quietly, softly",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "angucken",
@@ -431,49 +489,56 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat angeguckt"
+    "perfekt": "hat angeguckt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Prüfung",
     "translation": "exam",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Prüfungen"
+    "plural": "Prüfungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Hochzeit",
     "translation": "wedding",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Hochzeiten"
+    "plural": "Hochzeiten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Ring",
     "translation": "the ring",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Ringe"
+    "plural": "Ringe",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Führerschein",
     "translation": "driver's license",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Führerscheine"
+    "plural": "Führerscheine",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Geburtstag",
     "translation": "birthday",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Geburtstage"
+    "plural": "Geburtstage",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Storch",
     "translation": "stork",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Störche"
+    "plural": "Störche",
+    "date_added": "2026-01-01"
   },
   {
     "word": "heiraten",
@@ -481,7 +546,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat geheiratet"
+    "perfekt": "hat geheiratet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "denken",
@@ -489,49 +555,56 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gedacht"
+    "perfekt": "hat gedacht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "schlimm",
     "translation": "bad",
     "part_of_speech": "adjective",
     "comparative": "schlimmer",
-    "superlative": "am schlimmsten"
+    "superlative": "am schlimmsten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Erfahrung",
     "translation": "experience",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Erfahrungen"
+    "plural": "Erfahrungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Kaffee",
     "translation": "coffee",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Kaffees"
+    "plural": "Kaffees",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Einstand",
     "translation": "the entry, the start, the initiation (often used in contexts like starting a job or a celebration for starting something)",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Einstände"
+    "plural": "Einstände",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Erde",
     "translation": "Earth",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Erden"
+    "plural": "Erden",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Abitur",
     "translation": "the high school diploma (university entrance qualification)",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Abiture"
+    "plural": "Abiture",
+    "date_added": "2026-01-01"
   },
   {
     "word": "gewöhnen",
@@ -539,43 +612,50 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat gewöhnt"
+    "perfekt": "hat gewöhnt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "übrigens",
     "translation": "by the way",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "plötzlich",
     "translation": "suddenly",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "neugierig",
     "translation": "curious",
     "part_of_speech": "adjective",
     "comparative": "neugieriger",
-    "superlative": "am neugierigsten"
+    "superlative": "am neugierigsten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "entschieden",
     "translation": "decided, determined",
     "part_of_speech": "adjective",
     "comparative": "entschiedener",
-    "superlative": "am entschiedensten"
+    "superlative": "am entschiedensten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sicher",
     "translation": "safe, secure, certain",
     "part_of_speech": "adjective",
     "comparative": "sicherer",
-    "superlative": "am sichersten"
+    "superlative": "am sichersten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "während",
     "translation": "while, during",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich erkälten",
@@ -583,17 +663,20 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich erkältet"
+    "perfekt": "hat sich erkältet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "ausflug machen",
     "translation": "to go on an excursion",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "spazieren gehen",
     "translation": "to go for a walk",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich wohlfühlen",
@@ -601,47 +684,54 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich wohlgefühlt"
+    "perfekt": "hat sich wohlgefühlt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "schon",
     "translation": "already",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "schön",
     "translation": "beautiful",
     "part_of_speech": "adjective",
     "comparative": "schöner",
-    "superlative": "am schönsten"
+    "superlative": "am schönsten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Mädchen",
     "translation": "girl",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Mädchen"
+    "plural": "Mädchen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Tisch",
     "translation": "table",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Tische"
+    "plural": "Tische",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Spiegel",
     "translation": "mirror",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Spiegel"
+    "plural": "Spiegel",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Tasse",
     "translation": "cup",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Tassen"
+    "plural": "Tassen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "tanzen",
@@ -649,7 +739,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat getanzt"
+    "perfekt": "hat getanzt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "reisen",
@@ -657,7 +748,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "ist gereist"
+    "perfekt": "ist gereist",
+    "date_added": "2026-01-01"
   },
   {
     "word": "anrufen",
@@ -665,7 +757,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat angerufen"
+    "perfekt": "hat angerufen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sich kümmern",
@@ -673,63 +766,72 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gekümmert"
+    "perfekt": "hat sich gekümmert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Krankenhaus",
     "translation": "hospital",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Krankenhäuser"
+    "plural": "Krankenhäuser",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Müllabfuhr",
     "translation": "garbage collection",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Müllabfuhren"
+    "plural": "Müllabfuhren",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Straßenreinigung",
     "translation": "street cleaning",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Straßenreinigungen"
+    "plural": "Straßenreinigungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Polizei",
     "translation": "police",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Polizeien"
+    "plural": "Polizeien",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Restaurant",
     "translation": "restaurant",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Restaurants"
+    "plural": "Restaurants",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Behörde",
     "translation": "authority, agency, office",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Behörden"
+    "plural": "Behörden",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Amt",
     "translation": "office",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Ämter"
+    "plural": "Ämter",
+    "date_added": "2026-01-01"
   },
   {
     "word": "öffentliche Verkehrsmittel",
     "translation": "public transportation",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "öffentliche Verkehrsmittel"
+    "plural": "öffentliche Verkehrsmittel",
+    "date_added": "2026-01-01"
   },
   {
     "word": "beschützen",
@@ -737,7 +839,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat beschützt"
+    "perfekt": "hat beschützt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "servieren",
@@ -745,7 +848,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat serviert"
+    "perfekt": "hat serviert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "leeren",
@@ -753,12 +857,14 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat geleert"
+    "perfekt": "hat geleert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Angaben prüfen",
     "translation": "to check information",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "einsammeln",
@@ -766,7 +872,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat eingesammelt"
+    "perfekt": "hat eingesammelt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "bestellen",
@@ -774,7 +881,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat bestellt"
+    "perfekt": "hat bestellt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "transportieren",
@@ -782,12 +890,14 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat transportiert"
+    "perfekt": "hat transportiert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "die Spezialität probieren",
     "translation": "to try the specialty",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sauber machen",
@@ -795,7 +905,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat sauber gemacht"
+    "perfekt": "hat sauber gemacht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "ausfüllen",
@@ -803,7 +914,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat ausgefüllt"
+    "perfekt": "hat ausgefüllt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "aufräumen",
@@ -811,7 +923,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat aufgeräumt"
+    "perfekt": "hat aufgeräumt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "bedienen",
@@ -819,7 +932,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat bedient"
+    "perfekt": "hat bedient",
+    "date_added": "2026-01-01"
   },
   {
     "word": "pflegen",
@@ -827,7 +941,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gepflegt"
+    "perfekt": "hat gepflegt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "genehmigen",
@@ -835,138 +950,158 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat genehmigt"
+    "perfekt": "hat genehmigt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Gast",
     "translation": "guest",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Gäste"
+    "plural": "Gäste",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Straßenbahn",
     "translation": "tram",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Straßenbahnen"
+    "plural": "Straßenbahnen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Operation",
     "translation": "operation",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Operationen"
+    "plural": "Operationen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Antrag",
     "translation": "application, proposal, request",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Anträge"
+    "plural": "Anträge",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Sicherheit",
     "translation": "security, safety",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Sicherheiten"
+    "plural": "Sicherheiten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Dokument",
     "translation": "document",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Dokumente"
+    "plural": "Dokumente",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Patient",
     "translation": "patient",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Patienten"
+    "plural": "Patienten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Ordnung",
     "translation": "order",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Ordnungen"
+    "plural": "Ordnungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Formular",
     "translation": "form",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Formulare"
+    "plural": "Formulare",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fahrer",
     "translation": "driver",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Fahrer"
+    "plural": "Fahrer",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Müll",
     "translation": "garbage",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Müll"
+    "plural": "Müll",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Pass",
     "translation": "passport",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Pässe"
+    "plural": "Pässe",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Mülltonne",
     "translation": "trash bin",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Mülltonnen"
+    "plural": "Mülltonnen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Beamte",
     "translation": "civil servant",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Beamten"
+    "plural": "Beamten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Beamtin",
     "translation": "female civil servant",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Beamtinnen"
+    "plural": "Beamtinnen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Krankenpfleger",
     "translation": "male nurse",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Krankenpfleger"
+    "plural": "Krankenpfleger",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Schicht",
     "translation": "shift; layer",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Schichten"
+    "plural": "Schichten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Respekt haben vor",
     "translation": "to have respect for",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Nachdienst",
     "translation": "night shift",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Nachdienste"
+    "plural": "Nachdienste",
+    "date_added": "2026-01-01"
   },
   {
     "word": "grüßen",
@@ -974,12 +1109,14 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gegrüßt"
+    "perfekt": "hat gegrüßt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "an die Natur denken",
     "translation": "to think of nature",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "erledigen",
@@ -987,125 +1124,144 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat erledigt"
+    "perfekt": "hat erledigt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Lohn",
     "translation": "wage, salary",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Löhne"
+    "plural": "Löhne",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Ding",
     "translation": "thing",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Dinge"
+    "plural": "Dinge",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Betrag",
     "translation": "amount, sum",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Beträge"
+    "plural": "Beträge",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Überweisung",
     "translation": "transfer (e.g. bank transfer)",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Überweisungen"
+    "plural": "Überweisungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Einbürgerung",
     "translation": "naturalization",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Einbürgerungen"
+    "plural": "Einbürgerungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "besonders",
     "translation": "especially",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "weniger",
     "translation": "less",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "wichtig",
     "translation": "important",
     "part_of_speech": "adjective",
     "comparative": "wichtiger",
-    "superlative": "am wichtigsten"
+    "superlative": "am wichtigsten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Angabe",
     "translation": "information, statement, specification",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Angaben"
+    "plural": "Angaben",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Überall",
     "translation": "everywhere",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Handy",
     "translation": "mobile phone",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Handys"
+    "plural": "Handys",
+    "date_added": "2026-01-01"
   },
   {
     "word": "über",
     "translation": "over, above, about",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "berühmt",
     "translation": "famous",
     "part_of_speech": "adjective",
     "comparative": "berühmter",
-    "superlative": "am berühmtesten"
+    "superlative": "am berühmtesten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Politiker",
     "translation": "politician",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Politiker"
+    "plural": "Politiker",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Schriftsteller",
     "translation": "writer",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Schriftsteller"
+    "plural": "Schriftsteller",
+    "date_added": "2026-01-01"
   },
   {
     "word": "besondere",
     "translation": "special",
     "part_of_speech": "adjective",
     "comparative": "besonderer",
-    "superlative": "am besondersten"
+    "superlative": "am besondersten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Atmosphäre",
     "translation": "atmosphere",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Atmosphären"
+    "plural": "Atmosphären",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Ausstellung",
     "translation": "exhibition",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Ausstellungen"
+    "plural": "Ausstellungen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "zuhören",
@@ -1113,7 +1269,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat zugehört"
+    "perfekt": "hat zugehört",
+    "date_added": "2026-01-01"
   },
   {
     "word": "erzählen",
@@ -1121,17 +1278,20 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat erzählt"
+    "perfekt": "hat erzählt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "langsam",
     "translation": "slowly",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "fragen stellen",
     "translation": "to ask questions",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "werden",
@@ -1139,7 +1299,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "ist geworden"
+    "perfekt": "ist geworden",
+    "date_added": "2026-01-01"
   },
   {
     "word": "züchten",
@@ -1147,14 +1308,16 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gezüchtet"
+    "perfekt": "hat gezüchtet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Softwareentwickler",
     "translation": "software developer",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Softwareentwickler"
+    "plural": "Softwareentwickler",
+    "date_added": "2026-01-01"
   },
   {
     "word": "vorbereiten",
@@ -1162,7 +1325,8 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat vorbereitet"
+    "perfekt": "hat vorbereitet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "stören",
@@ -1170,7 +1334,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gestört"
+    "perfekt": "hat gestört",
+    "date_added": "2026-01-01"
   },
   {
     "word": "ausmachen",
@@ -1178,7 +1343,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat ausgemacht"
+    "perfekt": "hat ausgemacht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "zumachen",
@@ -1186,19 +1352,22 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat zugemacht"
+    "perfekt": "hat zugemacht",
+    "date_added": "2026-01-01"
   },
   {
     "word": "vorher",
     "translation": "before",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Blatt",
     "translation": "leaf, sheet",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Blätter"
+    "plural": "Blätter",
+    "date_added": "2026-01-01"
   },
   {
     "word": "bereitlegen",
@@ -1206,26 +1375,30 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat bereitgelegt"
+    "perfekt": "hat bereitgelegt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sofort",
     "translation": "immediately",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "deutlich",
     "translation": "clear, distinct",
     "part_of_speech": "adjective",
     "comparative": "deutlicher",
-    "superlative": "am deutlichsten"
+    "superlative": "am deutlichsten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Notiz",
     "translation": "note",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Notizen"
+    "plural": "Notizen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "lächeln",
@@ -1233,14 +1406,16 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gelächelt"
+    "perfekt": "hat gelächelt",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Geschäftsreise",
     "translation": "business trip",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Geschäftsreisen"
+    "plural": "Geschäftsreisen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "notieren",
@@ -1248,91 +1423,104 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat notiert"
+    "perfekt": "hat notiert",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Bahnhofshalle",
     "translation": "train station hall",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Bahnhofshallen"
+    "plural": "Bahnhofshallen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fahrkarte",
     "translation": "ticket (for travel)",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Fahrkarten"
+    "plural": "Fahrkarten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Gepäck",
     "translation": "luggage",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Gepäckstücke"
+    "plural": "Gepäckstücke",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Koffer",
     "translation": "suitcase",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Koffer"
+    "plural": "Koffer",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Zug",
     "translation": "train",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Züge"
+    "plural": "Züge",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Bahn",
     "translation": "railway, train, track",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Bahnen"
+    "plural": "Bahnen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Schild",
     "translation": "shield, sign",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Schilder"
+    "plural": "Schilder",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fahrgast",
     "translation": "passenger",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Fahrgäste"
+    "plural": "Fahrgäste",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Schaffner",
     "translation": "conductor",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Schaffner"
+    "plural": "Schaffner",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Durchsage",
     "translation": "announcement",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Durchsagen"
+    "plural": "Durchsagen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Fahrplan",
     "translation": "timetable, schedule",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Fahrpläne"
+    "plural": "Fahrpläne",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Schalter",
     "translation": "switch, counter, desk",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Schalter"
+    "plural": "Schalter",
+    "date_added": "2026-01-01"
   },
   {
     "word": "abfahren",
@@ -1340,35 +1528,40 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "ist abgefahren"
+    "perfekt": "ist abgefahren",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Abfahrt",
     "translation": "departure",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Abfahrten"
+    "plural": "Abfahrten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Wagen",
     "translation": "car, wagon",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Wagen"
+    "plural": "Wagen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Bahnsteig",
     "translation": "platform",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Bahnsteige"
+    "plural": "Bahnsteige",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Gleis",
     "translation": "platform, track",
     "part_of_speech": "noun",
     "article": "das",
-    "plural": "Gleise"
+    "plural": "Gleise",
+    "date_added": "2026-01-01"
   },
   {
     "word": "ankommen",
@@ -1376,21 +1569,24 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "ist angekommen"
+    "perfekt": "ist angekommen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Ankunft",
     "translation": "arrival",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Ankünfte"
+    "plural": "Ankünfte",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Automat",
     "translation": "vending machine",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Automaten"
+    "plural": "Automaten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "warten",
@@ -1398,12 +1594,14 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gewartet"
+    "perfekt": "hat gewartet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "hinter",
     "translation": "behind",
-    "part_of_speech": "other"
+    "part_of_speech": "other",
+    "date_added": "2026-01-01"
   },
   {
     "word": "tragen",
@@ -1411,7 +1609,8 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat getragen"
+    "perfekt": "hat getragen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "achten",
@@ -1419,14 +1618,16 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat geachtet"
+    "perfekt": "hat geachtet",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Kasus",
     "translation": "case",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Kasus"
+    "plural": "Kasus",
+    "date_added": "2026-01-01"
   },
   {
     "word": "liegen",
@@ -1434,39 +1635,224 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "hat gelegen"
+    "perfekt": "hat gelegen",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Brücke",
     "translation": "bridge",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Brücken"
+    "plural": "Brücken",
+    "date_added": "2026-01-01"
   },
   {
     "word": "sonst",
     "translation": "otherwise, besides, else",
-    "part_of_speech": "adverb"
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Markt",
     "translation": "market",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Märkte"
+    "plural": "Märkte",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Stadtrundfahrt",
     "translation": "city tour",
     "part_of_speech": "noun",
     "article": "die",
-    "plural": "Stadtrundfahrten"
+    "plural": "Stadtrundfahrten",
+    "date_added": "2026-01-01"
   },
   {
     "word": "Grund",
     "translation": "reason, ground, basis",
     "part_of_speech": "noun",
     "article": "der",
-    "plural": "Gründe"
+    "plural": "Gründe",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "ziemlich",
+    "translation": "quite",
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Zimmer",
+    "translation": "room",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Zimmer",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Konzert",
+    "translation": "concert",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Konzerte",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Kirche",
+    "translation": "church",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Kirchen",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "danach",
+    "translation": "afterwards",
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Gericht",
+    "translation": "court; dish",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Gerichte",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "weg",
+    "translation": "away",
+    "part_of_speech": "adverb",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Mist",
+    "translation": "manure; crap",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Miste",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Platz",
+    "translation": "place, square",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Plätze",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Internet",
+    "translation": "internet",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Internets",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "gültig",
+    "translation": "valid",
+    "part_of_speech": "adjective",
+    "comparative": "gültiger",
+    "superlative": "am gültigsten",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Frühstück",
+    "translation": "breakfast",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Frühstücke",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Ticket",
+    "translation": "ticket",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Tickets",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Wörterbuch",
+    "translation": "dictionary",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Wörterbücher",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Stift",
+    "translation": "pen, pencil, stylus",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Stifte",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Plakat",
+    "translation": "poster",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Plakate",
+    "date_added": "2026-01-01"
+  },
+  {
+    "word": "Pflanze",
+    "translation": "plant",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Pflanzen",
+    "date_added": "2026-06-24"
+  },
+  {
+    "word": "pflanzen",
+    "translation": "to plant",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "perfekt": "hat gepflanzt",
+    "date_added": "2026-06-24"
+  },
+  {
+    "word": "Blume",
+    "translation": "flower",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Blumen",
+    "date_added": "2026-06-24"
+  },
+  {
+    "word": "Kuchen",
+    "translation": "cake",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Kuchen",
+    "date_added": "2026-06-26"
+  },
+  {
+    "word": "Laptop",
+    "translation": "laptop",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Laptops",
+    "date_added": "2026-06-26"
+  },
+  {
+    "word": "Mütze",
+    "translation": "cap, beanie",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Mützen",
+    "date_added": "2026-06-26"
+  },
+  {
+    "word": "Kleid",
+    "translation": "dress",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Kleider",
+    "date_added": "2026-06-26"
   }
 ]

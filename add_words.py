@@ -3,6 +3,10 @@ from dotenv import load_dotenv
 import os
 import json
 import sys
+from datetime import date
+
+from prompts.enrich_word_prompt import ENRICH_WORD_PROMPT
+from study_sessions import save_session
 
 # load api key
 load_dotenv()
@@ -14,112 +18,41 @@ client = OpenAI(
 
 
 # load existing vocabulary
-def load_vocab():
-
+def load_vocab() -> list[dict]:
     # if file does not exist yet
     if not os.path.exists("vocab.json"):
         return []
 
     with open("vocab.json", "r", encoding="utf-8") as file:
-        return json.load(file)  # return list of dict
+        return json.load(file)
 
 
 # save vocabulary
 def save_vocab(vocab):
-
     # complete overwrite
     with open("vocab.json", "w", encoding="utf-8") as file:
         json.dump(vocab, file, ensure_ascii=False, indent=2)
 
 
+# add "date_added" field to word data
+def add_date_added(word_data: dict) -> dict:
+    if "date_added" not in word_data:
+        word_data["date_added"] = date.today().isoformat()
+    return word_data
+
+
 # ask LLM to enrich word
-def enrich_word(word):
-
-    prompt = f"""
-You are a German language assistant.
-You analyze this German word or phrase: "{word}".
-
-Tasks:
-1. Correct spelling if needed.
-2. Translate to English.
-3. Determine part of speech.
-
-Allowed parts_of_speech:
-- noun
-- verb (examples: verb with separable prefix: anrufen, reflexive verb: sich beeilen, regular verb: gehen)
-- adjective
-- adverb
-- other (examples: phrases like "ausflug machen", "spazieren gehen")
-
-5. If no such word exists, assign word="", "translation"="", "part_of_speech"="".
-6. If noun:
-return:
-{{
-  "word": "...",  [note: noun in singular form]
-  "translation": "...",
-  "part_of_speech": "noun",
-  "article": "...",
-  "plural": "..." [note: noun in plural form]
-}}
-
-If verb:
-return:
-{{
-    "word": "...",
-    "translation": "...",
-    "part_of_speech": "verb",
-    "reflexive": true/false,
-    "separable": true/false,
-    "perfekt": "..." (example: "hat getanzt")
-}}
-
-If adjective:
-return:
-{{
-  "word": "...",
-  "translation": "...",
-  "part_of_speech": "adjective",
-  "comparative": "...",
-  "superlative": "..."
-}}
-
-If adverb:
-return:
-{{
-  "word": "...",
-  "translation": "...",
-  "part_of_speech": "adverb"
-}}
-
-If other:
-return:
-{{
-  "word": "...",
-  "translation": "...",
-  "part_of_speech": "other"
-}}
-
-7. Return ONLY valid JSON. No markdown. No explanations.
-"""
+def enrich_word(word) -> dict:
+    prompt = ENRICH_WORD_PROMPT.format(word=word)
 
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
-        messages=[
-            {
-                "role": "system",
-                "content": "You analyze German vocabulary."
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
+        messages=[{"role": "system", "content": "You analyze German vocabulary."},
+            {"role": "user", "content": prompt}],
         temperature=0
     )
-
     content = response.choices[0].message.content
-
-    return json.loads(content)
+    return add_date_added(json.loads(content))
 
 
 # validate metadata returned by llm
@@ -127,53 +60,28 @@ def validate_metadata(data):
     pos = data["part_of_speech"]
 
     if pos == "noun":
-        required = [
-            "word",
-            "translation",
-            "article",
-            "plural"]
-
-    if pos == "verb":
-        required = [
-            "word",
-            "translation",
-            "reflexive",
-            "separable",
-            "perfekt"]
-
-    if pos == "adjective":
-        required = [
-            "word",
-            "translation",
-            "comparative",
-            "superlative"
-        ]
-
-    if pos == "adverb":
-        required = [
-            "word",
-            "translation"]
-
-    if pos == "other":
-        required = [
-            "word",
-            "translation"]
+        required = ["word", "translation", "article", "plural", "date_added"]
+    elif pos == "verb":
+        required = ["word", "translation", "reflexive", "separable", "perfekt", "date_added"]
+    elif pos == "adjective":
+        required = ["word", "translation", "comparative", "superlative", "date_added"]
+    elif pos == "adverb":
+        required = ["word", "translation", "date_added"]
+    elif pos == "other":
+        required = ["word", "translation", "date_added"]
 
     for field in required:
         if field not in data:
             raise ValueError(f"Missing field: {field}")
 
-    # print("Metadata validated")
     return True
 
 
 # prevent duplicates
-def word_exists(vocab, new_word):
-
+def word_exists(vocab: list[dict], new_word: str) -> bool:
     for item in vocab:
         if item["word"].lower() == new_word.lower():
             return True
-
     return False
 
 
@@ -205,9 +113,9 @@ def main():
         print(f"\nProcessing: {word}")
 
         try:
-            enriched = enrich_word(word)
+            enriched_word = enrich_word(word)
 
-            corrected_word = enriched["word"]
+            corrected_word = enriched_word["word"]
 
             # handle words that can't be recognized by llm
             if not corrected_word:
@@ -219,14 +127,19 @@ def main():
                 print(f"Skipped duplicate: {corrected_word}")
                 continue
 
-            validate_metadata(enriched)
-            vocab.append(enriched)
+            # validate metadata
+            validate_metadata(enriched_word)
 
+            # add new word to vocabulary
+            vocab.append(enriched_word)
             print("Added:")
-            print(json.dumps(enriched, ensure_ascii=False, indent=2))
+            print(json.dumps(enriched_word, ensure_ascii=False, indent=2))
 
-            # save updated vocab
+            # save updated vocabulary
             save_vocab(vocab)
+
+            # save study session date
+            save_session(enriched_word["date_added"])
 
             print("\nVocabulary updated successfully.")
 

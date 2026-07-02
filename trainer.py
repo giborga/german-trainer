@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 from config import MODEL
 from exercise_factory import create_exercise
+from word_utils import normalize_word, remove_umlaut_word
 from vocabulary import Vocabulary
 
 # load API key from .env
@@ -14,11 +15,12 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
+# count expected length of user's answer
 def count_gaps(sentence: str) -> int:
     print("number of gaps", len(re.findall("___", sentence)))
     return len(re.findall("___", sentence))
 
-# list words from answer
+# list words from user's answer
 def parse_user_answer(raw_answer: str) -> list:
     print("Parsing user answer: ", re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer))
     return re.findall(r"\b\w+(?:[-']\w+)*\b", raw_answer)
@@ -43,19 +45,12 @@ def prompt_user_answer(expected_length: int, max_attempts: int = 3):
 
     raise ValueError(f"Sentence contains {expected_length} gaps, but only {len(user_answer)} words were provided.")
 
-# check answer
+
+# check user's answer
 def check_exercise_locally(correct_answer, user_answer):
-
-    def normalize(answer):
-        return [word.strip().lower().replace("  ", " ") for word in answer]
-
-    def remove_umlaut(answer):
-        table = str.maketrans(
-            {"ä": "a", "ö": "o", "ü": "u", "Ä": "A", "Ö": "O", "Ü": "U", "ß": "ss"}
-        )
-        return [word.translate(table) for word in answer]
-
-    return normalize(remove_umlaut(correct_answer)) == normalize(remove_umlaut(user_answer))
+    normalized_correct_answer = [normalize_word(remove_umlaut_word(word)) for word in correct_answer]
+    normalized_user_answer = [normalize_word(remove_umlaut_word(word)) for word in user_answer]
+    return normalized_correct_answer == normalized_user_answer
 
 # fill-in gaps in sentence by user's answer
 def fill_gaps(answer: list, sentence: str) -> str:
@@ -67,7 +62,7 @@ def fill_gaps(answer: list, sentence: str) -> str:
     words_iter = iter(answer)
     return re.sub(r"___", lambda match: next(words_iter), sentence)
 
-# explain mistake only if the answer is incorrect
+# explain mistake if the answer is incorrect
 def explain_mistake(correct_answer, user_answer, client, model):
     prompt = f"""
         Correct answer: {correct_answer}
@@ -86,11 +81,11 @@ def main():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("-n", "--number", type=int, default=5, help="Number of exercises")
     arg_parser.add_argument("-w", "--word", help="Request exercise with a specific word")
+    arg_parser.add_argument("-l", "--latest", action="store_true", help="Exercise words from the 5 latest sessions")
     args = arg_parser.parse_args()
-    print("args: ", type(args), args)  # <class 'argparse.Namespace'> Namespace(number=5, word='wandern')
+    print("args: ", type(args), args)
 
-    vocab = Vocabulary()
-    print("vocab: ", vocab)  # <vocabulary.Vocabulary object at 0x106c59c10>
+    vocab = Vocabulary()  # <vocabulary.Vocabulary object at 0x106c59c10>
 
     if args.word is not None:
         word_data = vocab.get_word_data(args.word)
@@ -98,6 +93,14 @@ def main():
 
         def sample_word_data():
             yield from [word_data]
+
+    elif args.latest:
+        latest_words = vocab.get_latest_words()
+        if not latest_words:
+            raise ValueError("No words with 'date_added' were found in vocab.json.")
+
+        def sample_word_data():
+            yield from latest_words
 
     else:
         def sample_word_data():
