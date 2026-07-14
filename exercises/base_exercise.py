@@ -1,5 +1,5 @@
-import json
 import re
+
 
 class BaseExercise:
     def __init__(self, word_data, client, model):
@@ -7,17 +7,24 @@ class BaseExercise:
         self.client = client
         self.model = model
 
-    def call_llm(self, prompt, temperature=0.7):
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=[{"role": "system", "content": "You are a trainer of German language."},
-                      {"role": "user", "content": prompt}],
-            temperature=temperature
-        )
-        return json.loads(response.choices[0].message.content)
+    def generate_exercise(self) -> dict:
+        raise NotImplementedError()
+
+    def build_exercise(self, exercise_data: dict) -> str:
+        raise NotImplementedError()
+
+    def get_user_answer(self, exercise_data: dict) -> str :
+        raise NotImplementedError()
+
+    def check_exercise(self, exercise_data: dict, user_answer: str) -> bool:
+        raise NotImplementedError()
+
+    def get_feedback(self, exercise_data: dict, user_answer: list, client, model):
+        raise NotImplementedError()
+
 
     @staticmethod
-    def censor_exercise(exercise_data):
+    def censor_exercise(exercise_data: dict):
         """
         :param exercise_data:
             {'instruction': 'Complete the sentence:',
@@ -40,13 +47,6 @@ class BaseExercise:
             sentence = censor(sentence, w)
 
         exercise_data["sentence"] = sentence
-
         print("exercise_data: ", exercise_data)
 
         return exercise_data
-
-    def generate_exercise(self):
-        raise NotImplementedError()
-
-    def check_exercise(self, exercise, user_answer, correct_answer):
-        raise NotImplementedError()

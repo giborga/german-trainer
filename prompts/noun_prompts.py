@@ -4,13 +4,14 @@ The German noun is: {word}.
 Correct article is: {article}.
 Plural form is: {plural}.
 Rules for exercise and answer generation:
-1. Create one A2 exercise.
+1. Create one A2 exercise with one simple sentence (not compound sentence).
 2. Generate an "instruction" for the exercise in English.
 3. Provide FULL "sentence" in German without gaps.
 4. Generate list of "missing_words", that will be used later.
 5. "missing_words" may be an article or noun's plural form.
 6. While creating "missing_words", use the noun '{word}' and its article in a correct form and order for the sentence.
-5. Return only JSON:
+7. In case there are duplicate articles in a sentence, for example, "die" and "die" - list all duplicate articles in "missing_words".
+8. Return only JSON:
 {{
   "instruction": "...",
   "sentence": "...",
@@ -20,8 +21,8 @@ Rules for exercise and answer generation:
 Exercise_1:
 {{
   "instruction": "Complete with correct article:",
-  "sentence": "Der große Hund spielt im Garten.",
-  "missing_words": ["Der"]
+  "sentence": "Die Überweisung ist für die Miete wichtig.",
+  "missing_words": ["Die", "die"]
 }}
 Exercise_2:
 {{
