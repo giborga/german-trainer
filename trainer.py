@@ -17,7 +17,7 @@ client = OpenAI(api_key=api_key)
 
 def main():
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument("-n", "--number", type=int, default=5, help="Number of exercises")
+    arg_parser.add_argument("-n", "--number", type=int, default=10, help="Number of exercises")
     arg_parser.add_argument("-w", "--word", help="Request exercise with a specific word")
     arg_parser.add_argument("-l", "--latest", action="store_true", help="Exercise words from the 5 latest sessions")
     arg_parser.add_argument("-e", "--exercise_type", choices=["default", "article"], default="default",
@@ -29,7 +29,6 @@ def main():
     vocab = Vocabulary()  # vocabulary object
 
     exercise_type = args.exercise_type
-    # print("exercise_type: ", exercise_type)
 
     if exercise_type != "default":
         if exercise_type == "article":
@@ -47,18 +46,17 @@ def main():
             raise ValueError(str(e))
 
         def sample_word_data() -> Iterable[WordData]:
-            return [
-                word_data]  # [{'word': 'wandern', 'translation': 'to hike', 'part_of_speech': 'verb', 'reflexive': False, 'separable': False, 'perfekt': 'ist gewandert'}]
+            return [word_data]  # [{'word': 'wandern', 'translation': 'to hike', 'part_of_speech': 'verb', 'reflexive': False, 'separable': False, 'perfekt': 'ist gewandert'}]
 
     elif args.latest:
-        latest_words = vocab.get_latest_words()
+        vocabulary = vocab.get_latest_words()
 
         def sample_word_data():
-            yield from latest_words
+            while True:
+                yield vocab.get_word(vocabulary)
 
     else:
         def sample_word_data() -> Iterable[WordData]:
-            print("in sample_word_data for random vocabulary")
             while True:
                 yield vocab.get_word(vocabulary=None)
 

@@ -10,7 +10,7 @@ Rules for exercise and answer generation:
 4. Generate list of "missing_words", that will be used later.
 5. "missing_words" may be an article or noun's plural form.
 6. While creating "missing_words", use the noun '{word}' and its article in a correct form and order for the sentence.
-7. In case there are duplicate articles in a sentence, for example, "die" and "die" - list all duplicate articles in "missing_words".
+7. In case there are duplicate articles in a sentence, for example, ("die" and "die", "der" and "der" - list all duplicate articles in "missing_words".
 8. Return only JSON:
 {{
   "instruction": "...",
