@@ -62,7 +62,7 @@ def validate_metadata(data):
     if pos == "noun":
         required = ["word", "translation", "article", "plural", "date_added"]
     elif pos == "verb":
-        required = ["word", "translation", "reflexive", "separable", "perfekt", "date_added"]
+        required = ["word", "translation", "reflexive", "separable", "verb_type", "konjugation_present", "konjugation_preteritum", "perfekt", "date_added"]
     elif pos == "adjective":
         required = ["word", "translation", "comparative", "superlative", "date_added"]
     elif pos == "adverb":

@@ -1,8 +1,12 @@
-from exercises.base_exercise import BaseExercise
+from typing_extensions import override
+
+from exercises.fill_in_blank_exercise import FillInBlankExercise
 from prompts.verb_prompts import (REFLEXIVE_AND_SEPARABLE_VERB_PROMPT, REFLEXIVE_VERB_PROMPT, SEPARABLE_VERB_PROMPT, DEFAULT_VERB_PROMPT)
 
-class VerbFillInBlankExercise(BaseExercise):
 
+class VerbFillInBlankExercise(FillInBlankExercise):
+
+    @override
     def _build_prompt(self):
         word = self.word_data["word"]
 
@@ -16,13 +20,3 @@ class VerbFillInBlankExercise(BaseExercise):
             return REFLEXIVE_VERB_PROMPT.format(word=word)
 
         return DEFAULT_VERB_PROMPT.format(word=word)
-
-    def generate_exercise(self):
-        prompt = self._build_prompt()
-        raw_exercise_data = self.call_llm(prompt)
-        print("raw_exercise_data verb: ", raw_exercise_data)
-
-        return self.censor_exercise(raw_exercise_data)
-
-    # def check_exercise(self, user_answer, correct_answer):
-    #     pass

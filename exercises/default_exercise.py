@@ -1,17 +1,12 @@
-from exercises.base_exercise import BaseExercise
+from typing_extensions import override
+
+from exercises.fill_in_blank_exercise import FillInBlankExercise
 from prompts.default_prompts import DEFAULT_PROMPT
 
-class DefaultExercise(BaseExercise):
 
+class DefaultExercise(FillInBlankExercise):
+
+    @override
     def _build_prompt(self):
         word = self.word_data["word"]
-        prompt = DEFAULT_PROMPT.format(word=word)
-        return prompt
-
-    def generate_exercise(self):
-        prompt = self._build_prompt()
-        raw_exercise_data = self.call_llm(prompt)
-        return self.censor_exercise(raw_exercise_data)
-
-    # def check_exercise(self, exercise, user_answer, correct_answer):
-    #     pass
+        return DEFAULT_PROMPT.format(word=word)
