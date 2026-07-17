@@ -13,8 +13,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
-    "perfekt": "ist gewandert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "wandere",
+      "wanderst",
+      "wandert",
+      "wandern",
+      "wandert",
+      "wandern"
+    ],
+    "konjugation_preteritum": [
+      "wanderte",
+      "wandertest",
+      "wanderte",
+      "wanderten",
+      "wandertet",
+      "wanderten"
+    ],
+    "perfekt": "bin gewandert",
+    "date_added": "2026-07-17"
   },
   {
     "word": "Wasserfall",
@@ -33,13 +50,30 @@
     "date_added": "2026-01-01"
   },
   {
-    "word": "sich ausruhen",
+    "word": "ausruhen",
     "translation": "to rest",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich ausgeruht",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ruhe aus",
+      "ruhst aus",
+      "ruht aus",
+      "ruhen aus",
+      "ruht aus",
+      "ruhen aus"
+    ],
+    "konjugation_preteritum": [
+      "ruhte aus",
+      "ruhtest aus",
+      "ruhte aus",
+      "ruhten aus",
+      "ruhtet aus",
+      "ruhten aus"
+    ],
+    "perfekt": "hat ausgeruht",
+    "date_added": "2026-07-17"
   },
   {
     "word": "Haus",
@@ -87,8 +121,25 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
-    "perfekt": "hat sich angezogen",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ziehe mich an",
+      "ziehst dich an",
+      "zieht sich an",
+      "ziehen uns an",
+      "zieht euch an",
+      "ziehen sich an"
+    ],
+    "konjugation_preteritum": [
+      "zog mich an",
+      "zogst dich an",
+      "zog sich an",
+      "zogen uns an",
+      "zogen euch an",
+      "zogen sich an"
+    ],
+    "perfekt": "habe mich angezogen",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich bewerben",
@@ -96,17 +147,51 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich beworben",
-    "date_added": "2026-01-01"
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "bewerbe mich",
+      "bewirbst dich",
+      "bewirbt sich",
+      "bewerben uns",
+      "bewerbt euch",
+      "bewerben sich"
+    ],
+    "konjugation_preteritum": [
+      "bewarb mich",
+      "bewarbst dich",
+      "bewarb sich",
+      "bewarben uns",
+      "bewarbt euch",
+      "bewarben sich"
+    ],
+    "perfekt": "habe mich beworben",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich informieren",
+    "word": "informieren",
     "translation": "to inform oneself",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich informiert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "informiere",
+      "informierst",
+      "informiert",
+      "informieren",
+      "informiert",
+      "informieren"
+    ],
+    "konjugation_preteritum": [
+      "informierte",
+      "informiertest",
+      "informierte",
+      "informierten",
+      "informiertet",
+      "informierten"
+    ],
+    "perfekt": "hat informiert",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich kämmen",
@@ -114,35 +199,103 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "kämme mich",
+      "kämmst dich",
+      "kämmt sich",
+      "kämmen uns",
+      "kämmt euch",
+      "kämmen sich"
+    ],
+    "konjugation_preteritum": [
+      "kämmte mich",
+      "kämtest dich",
+      "kämmte sich",
+      "kämmten uns",
+      "kämmtet euch",
+      "kämmten sich"
+    ],
     "perfekt": "hat sich gekämmt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich rasieren",
-    "translation": "to shave oneself",
+    "word": "rasieren",
+    "translation": "to shave",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich rasiert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "rasiere",
+      "rasierst",
+      "rasiert",
+      "rasieren",
+      "rasiert",
+      "rasieren"
+    ],
+    "konjugation_preteritum": [
+      "rasierte",
+      "rasiertest",
+      "rasierte",
+      "rasierten",
+      "rasiertet",
+      "rasierten"
+    ],
+    "perfekt": "hat rasiert",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich konzentrieren",
+    "word": "konzentrieren",
     "translation": "to concentrate",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich konzentriert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "konzentriere",
+      "konzentrierst",
+      "konzentriert",
+      "konzentrieren",
+      "konzentriert",
+      "konzentrieren"
+    ],
+    "konjugation_preteritum": [
+      "konzentrierte",
+      "konzentriertest",
+      "konzentrierte",
+      "konzentrierten",
+      "konzentriertet",
+      "konzentrierten"
+    ],
+    "perfekt": "hat konzentriert",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich entschieden",
-    "translation": "decided",
+    "word": "entscheiden",
+    "translation": "to decide",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entschieden",
-    "date_added": "2026-01-01"
+    "verb_type": "strong",
+    "konjugation_present": [
+      "entscheide",
+      "entscheidest",
+      "entscheidet",
+      "entscheiden",
+      "entscheidet",
+      "entscheiden"
+    ],
+    "konjugation_preteritum": [
+      "entschied",
+      "entschiedest",
+      "entschied",
+      "entschieden",
+      "entschiedet",
+      "entschieden"
+    ],
+    "perfekt": "hat entschieden",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich erinnern",
@@ -150,44 +303,129 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich erinnert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erinnere mich",
+      "erinnerst dich",
+      "erinnert sich",
+      "erinnern uns",
+      "erinnert euch",
+      "erinnern sich"
+    ],
+    "konjugation_preteritum": [
+      "erinnerte mich",
+      "erinnertest dich",
+      "erinnerte sich",
+      "erinnerten uns",
+      "erinnertet euch",
+      "erinnerten sich"
+    ],
+    "perfekt": "habe mich erinnert",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich ärgern",
-    "translation": "to be annoyed, to get angry",
+    "word": "ärgern",
+    "translation": "to be annoyed",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich geärgert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ärgere",
+      "ärgerst",
+      "ärgert",
+      "ärgern",
+      "ärgert",
+      "ärgern"
+    ],
+    "konjugation_preteritum": [
+      "ärgerte",
+      "ärgertest",
+      "ärgerte",
+      "ärgerten",
+      "ärgertet",
+      "ärgerten"
+    ],
+    "perfekt": "hat geärgert",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich verabschieden",
+    "word": "verabschieden",
     "translation": "to say goodbye",
     "part_of_speech": "verb",
     "reflexive": true,
-    "separable": true,
-    "perfekt": "hat sich verabschiedet",
-    "date_added": "2026-01-01"
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "verabschiede mich",
+      "verabschiedest dich",
+      "verabschiedet sich",
+      "verabschieden uns",
+      "verabschiedet euch",
+      "verabschieden sich"
+    ],
+    "konjugation_preteritum": [
+      "verabschiedete mich",
+      "verabschiedetest dich",
+      "verabschiedete sich",
+      "verabschiedeten uns",
+      "verabschiedetet euch",
+      "verabschiedeten sich"
+    ],
+    "perfekt": "habe mich verabschiedet",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich streiten",
-    "translation": "to argue, to quarrel",
+    "word": "streiten",
+    "translation": "to argue",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "streite",
+      "streitest",
+      "streitet",
+      "streiten",
+      "streitet",
+      "streiten"
+    ],
+    "konjugation_preteritum": [
+      "stritt",
+      "strittest",
+      "stritt",
+      "stritten",
+      "strittet",
+      "stritten"
+    ],
     "perfekt": "hat gestritten",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich langweilen",
+    "word": "langweilen",
     "translation": "to be bored",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gelangweilt",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "langweile",
+      "langweilest",
+      "langweilt",
+      "langweilen",
+      "langweilt",
+      "langweilen"
+    ],
+    "konjugation_preteritum": [
+      "langweilte",
+      "langweiltest",
+      "langweilte",
+      "langweilten",
+      "langweiltet",
+      "langweilten"
+    ],
+    "perfekt": "hat gelangweilt",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich ruhen",
@@ -195,8 +433,25 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ruhe mich",
+      "ruhst dich",
+      "ruht sich",
+      "ruhen uns",
+      "ruht euch",
+      "ruhen sich"
+    ],
+    "konjugation_preteritum": [
+      "ruhte mich",
+      "ruhtest dich",
+      "ruhte sich",
+      "ruhten uns",
+      "ruhtet euch",
+      "ruhten sich"
+    ],
     "perfekt": "hat sich geruht",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich unterhalten",
@@ -204,35 +459,103 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": true,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "unterhalte mich",
+      "unterhältst dich",
+      "unterhält sich",
+      "unterhalten uns",
+      "unterhaltet euch",
+      "unterhalten sich"
+    ],
+    "konjugation_preteritum": [
+      "unterhielt mich",
+      "unterhieltest dich",
+      "unterhielt sich",
+      "unterhielten uns",
+      "unterhieltet euch",
+      "unterhielten sich"
+    ],
     "perfekt": "hat sich unterhalten",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich treffen",
-    "translation": "to meet (each other)",
+    "word": "treffen",
+    "translation": "to meet",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich getroffen",
-    "date_added": "2026-01-01"
+    "verb_type": "strong",
+    "konjugation_present": [
+      "treffe",
+      "triffst",
+      "trifft",
+      "treffen",
+      "trefft",
+      "treffen"
+    ],
+    "konjugation_preteritum": [
+      "traf",
+      "trafst",
+      "traf",
+      "trafen",
+      "traft",
+      "trafen"
+    ],
+    "perfekt": "hat getroffen",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich freuen",
-    "translation": "to be happy, to look forward to",
+    "translation": "to be happy, to look forward",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gefreut",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "freue mich",
+      "freust dich",
+      "freut sich",
+      "freuen uns",
+      "freut euch",
+      "freuen sich"
+    ],
+    "konjugation_preteritum": [
+      "freute mich",
+      "freutest dich",
+      "freute sich",
+      "freuten uns",
+      "freutet euch",
+      "freuten sich"
+    ],
+    "perfekt": "habe mich gefreut",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich entschuldigen",
+    "word": "entschuldigen",
     "translation": "to apologize",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entschuldigt",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "entschuldige",
+      "entschuldigst",
+      "entschuldigt",
+      "entschuldigen",
+      "entschuldigt",
+      "entschuldigen"
+    ],
+    "konjugation_preteritum": [
+      "entschuldigte",
+      "entschuldigtest",
+      "entschuldigte",
+      "entschuldigten",
+      "entschuldigtet",
+      "entschuldigten"
+    ],
+    "perfekt": "hat entschuldigt",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich bedanken",
@@ -240,8 +563,25 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich bedankt",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "bedanke mich",
+      "bedankst dich",
+      "bedankt sich",
+      "bedanken uns",
+      "bedankt euch",
+      "bedanken sich"
+    ],
+    "konjugation_preteritum": [
+      "bedankte mich",
+      "bedanktest dich",
+      "bedankte sich",
+      "bedankten uns",
+      "bedanktet euch",
+      "bedankten sich"
+    ],
+    "perfekt": "habe mich bedankt",
+    "date_added": "2026-07-17"
   },
   {
     "word": "sich beeilen",
@@ -249,53 +589,155 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ich beeile mich",
+      "du beeilst dich",
+      "er/sie/es beeilt sich",
+      "wir beeilen uns",
+      "ihr beeilt euch",
+      "sie/Sie beeilen sich"
+    ],
+    "konjugation_preteritum": [
+      "ich beeilte mich",
+      "du beeiltest dich",
+      "er/sie/es beeilte sich",
+      "wir beeilten uns",
+      "ihr beeiltet euch",
+      "sie/Sie beeilten sich"
+    ],
     "perfekt": "hat sich beeilt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich bewegen",
+    "word": "bewegen",
     "translation": "to move",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich bewegt",
-    "date_added": "2026-01-01"
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "bewege",
+      "bewegst",
+      "bewegt",
+      "bewegen",
+      "bewegt",
+      "bewegen"
+    ],
+    "konjugation_preteritum": [
+      "bewegte",
+      "bewegtest",
+      "bewegte",
+      "bewegten",
+      "bewegtet",
+      "bewegten"
+    ],
+    "perfekt": "hat bewegt",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich entspannen",
+    "word": "entspannen",
     "translation": "to relax",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich entspannt",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "entspanne",
+      "entspannst",
+      "entspannt",
+      "entspannen",
+      "entspannt",
+      "entspannen"
+    ],
+    "konjugation_preteritum": [
+      "entspannte",
+      "entspanntest",
+      "entspannte",
+      "entspannten",
+      "entspanntet",
+      "entspannten"
+    ],
+    "perfekt": "hat entspannt",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich waschen",
+    "word": "waschen",
     "translation": "to wash oneself",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gewaschen",
-    "date_added": "2026-01-01"
+    "verb_type": "strong",
+    "konjugation_present": [
+      "wasche",
+      "wäschst",
+      "wäscht",
+      "waschen",
+      "wascht",
+      "waschen"
+    ],
+    "konjugation_preteritum": [
+      "wusch",
+      "wuschst",
+      "wusch",
+      "wuschen",
+      "wuscht",
+      "wuschen"
+    ],
+    "perfekt": "hat gewaschen",
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich beruhigen",
+    "word": "beruhigen",
     "translation": "to calm down",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich beruhigt",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "beruhige",
+      "beruhigst",
+      "beruhigt",
+      "beruhigen",
+      "beruhigt",
+      "beruhigen"
+    ],
+    "konjugation_preteritum": [
+      "beruhigte",
+      "beruhigtest",
+      "beruhigte",
+      "beruhigten",
+      "beruhigtet",
+      "beruhigten"
+    ],
+    "perfekt": "hat beruhigt",
+    "date_added": "2026-07-17"
   },
   {
     "word": "erhalten",
-    "translation": "to receive, to obtain, to preserve",
+    "translation": "to receive",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "erhalte",
+      "erhältst",
+      "erhält",
+      "erhalten",
+      "erhaltet",
+      "erhalten"
+    ],
+    "konjugation_preteritum": [
+      "erhielt",
+      "erhieltest",
+      "erhielt",
+      "erhielten",
+      "erhieltet",
+      "erhielten"
+    ],
     "perfekt": "hat erhalten",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "fühlen",
@@ -303,8 +745,25 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "fühle",
+      "fühlst",
+      "fühlt",
+      "fühlen",
+      "fühlt",
+      "fühlen"
+    ],
+    "konjugation_preteritum": [
+      "fühlte",
+      "fühltest",
+      "fühlte",
+      "fühlten",
+      "fühltet",
+      "fühlten"
+    ],
     "perfekt": "hat gefühlt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Gefühl",
@@ -328,8 +787,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erwarte",
+      "erwartest",
+      "erwartet",
+      "erwarten",
+      "erwartet",
+      "erwarten"
+    ],
+    "konjugation_preteritum": [
+      "erwartete",
+      "erwartetest",
+      "erwartete",
+      "erwarteten",
+      "erwartetet",
+      "erwarteten"
+    ],
     "perfekt": "hat erwartet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Spaß haben",
@@ -381,8 +857,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "fällt ein",
+      "fällst ein",
+      "fällt ein",
+      "fallen ein",
+      "fallt ein",
+      "fallen ein"
+    ],
+    "konjugation_preteritum": [
+      "fiel ein",
+      "fielst ein",
+      "fiel ein",
+      "fielen ein",
+      "fielt ein",
+      "fielen ein"
+    ],
     "perfekt": "ist eingefallen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Freude",
@@ -393,13 +886,30 @@
     "date_added": "2026-01-01"
   },
   {
-    "word": "sich freuen über",
-    "translation": "to be happy about",
+    "word": "sich freuen",
+    "translation": "to be happy, to rejoice",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gefreut über",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "freue mich",
+      "freust dich",
+      "freut sich",
+      "freuen uns",
+      "freut euch",
+      "freuen sich"
+    ],
+    "konjugation_preteritum": [
+      "freute mich",
+      "freutest dich",
+      "freute sich",
+      "freuten uns",
+      "freutet euch",
+      "freuten sich"
+    ],
+    "perfekt": "habe mich gefreut",
+    "date_added": "2026-07-17"
   },
   {
     "word": "Kleinigkeit",
@@ -439,8 +949,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "klinge",
+      "klingelst",
+      "klingelt",
+      "klingeln",
+      "klingelt",
+      "klingeln"
+    ],
+    "konjugation_preteritum": [
+      "klingelte",
+      "klingeltest",
+      "klingelte",
+      "klingelten",
+      "klingeltet",
+      "klingelten"
+    ],
     "perfekt": "hat geklingelt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "aus dem Häuschen sein",
@@ -460,8 +987,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "genieße",
+      "genießt",
+      "genießt",
+      "genießen",
+      "genießt",
+      "genießen"
+    ],
+    "konjugation_preteritum": [
+      "genoss",
+      "genossest",
+      "genoss",
+      "genossen",
+      "genosst",
+      "genossen"
+    ],
     "perfekt": "hat genossen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Fehler",
@@ -485,12 +1029,29 @@
   },
   {
     "word": "angucken",
-    "translation": "to look at, to watch",
+    "translation": "to look at",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "gucke an",
+      "guckst an",
+      "guckt an",
+      "gucken an",
+      "guckt an",
+      "gucken an"
+    ],
+    "konjugation_preteritum": [
+      "guckte an",
+      "gucktest an",
+      "guckte an",
+      "guckten an",
+      "gucktet an",
+      "guckten an"
+    ],
     "perfekt": "hat angeguckt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Prüfung",
@@ -546,8 +1107,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "heirate",
+      "heiratest",
+      "heiratet",
+      "heiraten",
+      "heiratet",
+      "heiraten"
+    ],
+    "konjugation_preteritum": [
+      "heiratete",
+      "heiratetest",
+      "heiratete",
+      "heirateten",
+      "heiratetet",
+      "heirateten"
+    ],
     "perfekt": "hat geheiratet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "denken",
@@ -555,8 +1133,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "denke",
+      "denkst",
+      "denkt",
+      "denken",
+      "denkt",
+      "denken"
+    ],
+    "konjugation_preteritum": [
+      "dachte",
+      "dachtest",
+      "dachte",
+      "dachten",
+      "dachtet",
+      "dachten"
+    ],
     "perfekt": "hat gedacht",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "schlimm",
@@ -612,8 +1207,25 @@
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "gewöhne",
+      "gewöhnst",
+      "gewöhnt",
+      "gewöhnen",
+      "gewöhnt",
+      "gewöhnen"
+    ],
+    "konjugation_preteritum": [
+      "gewöhnte",
+      "gewöhn test",
+      "gewöhnte",
+      "gewöhn ten",
+      "gewöhn tet",
+      "gewöhn ten"
+    ],
     "perfekt": "hat gewöhnt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "übrigens",
@@ -658,13 +1270,30 @@
     "date_added": "2026-01-01"
   },
   {
-    "word": "sich erkälten",
+    "word": "erkälten",
     "translation": "to catch a cold",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich erkältet",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erkälte mich",
+      "erkältest dich",
+      "erkältet sich",
+      "erkälten uns",
+      "erkältet euch",
+      "erkälten sich"
+    ],
+    "konjugation_preteritum": [
+      "erkältete mich",
+      "erkältetest dich",
+      "erkältete sich",
+      "erkälteten uns",
+      "erkältetet euch",
+      "erkälteten sich"
+    ],
+    "perfekt": "habe mich erkältet",
+    "date_added": "2026-07-17"
   },
   {
     "word": "ausflug machen",
@@ -680,12 +1309,29 @@
   },
   {
     "word": "sich wohlfühlen",
-    "translation": "to feel comfortable, to feel well",
+    "translation": "to feel comfortable",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich wohlgefühlt",
-    "date_added": "2026-01-01"
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "fühle mich wohl",
+      "fühlst dich wohl",
+      "fühlt sich wohl",
+      "fühlen uns wohl",
+      "fühlt euch wohl",
+      "fühlen sich wohl"
+    ],
+    "konjugation_preteritum": [
+      "fühlte mich wohl",
+      "fühltest dich wohl",
+      "fühlte sich wohl",
+      "fühlten uns wohl",
+      "fühltet euch wohl",
+      "fühlten sich wohl"
+    ],
+    "perfekt": "habe mich wohlgefühlt",
+    "date_added": "2026-07-17"
   },
   {
     "word": "schon",
@@ -739,8 +1385,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "tanze",
+      "tanzt",
+      "tanzt",
+      "tanzen",
+      "tanzt",
+      "tanzen"
+    ],
+    "konjugation_preteritum": [
+      "tanzte",
+      "tanztest",
+      "tanzte",
+      "tanzten",
+      "tanztet",
+      "tanzten"
+    ],
     "perfekt": "hat getanzt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "reisen",
@@ -748,8 +1411,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "reise",
+      "reist",
+      "reist",
+      "reisen",
+      "reist",
+      "reisen"
+    ],
+    "konjugation_preteritum": [
+      "reiste",
+      "reistest",
+      "reiste",
+      "reisten",
+      "reistet",
+      "reisten"
+    ],
     "perfekt": "ist gereist",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "anrufen",
@@ -757,17 +1437,51 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "rufe an",
+      "rufst an",
+      "ruft an",
+      "rufen an",
+      "ruft an",
+      "rufen an"
+    ],
+    "konjugation_preteritum": [
+      "rief an",
+      "riefst an",
+      "rief an",
+      "riefen an",
+      "rieft an",
+      "riefen an"
+    ],
     "perfekt": "hat angerufen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
-    "word": "sich kümmern",
-    "translation": "to take care (of), to look after",
+    "word": "kümmern",
+    "translation": "to take care",
     "part_of_speech": "verb",
     "reflexive": true,
     "separable": false,
-    "perfekt": "hat sich gekümmert",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "kümmere",
+      "kümmerst",
+      "kümmert",
+      "kümmern",
+      "kümmert",
+      "kümmern"
+    ],
+    "konjugation_preteritum": [
+      "kümmerte",
+      "kümmerstest",
+      "kümmerte",
+      "kümmerten",
+      "kümmertet",
+      "kümmerten"
+    ],
+    "perfekt": "hat gekümmert",
+    "date_added": "2026-07-17"
   },
   {
     "word": "Krankenhaus",
@@ -839,8 +1553,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "beschütze",
+      "beschützt",
+      "beschützt",
+      "beschützen",
+      "beschützt",
+      "beschützen"
+    ],
+    "konjugation_preteritum": [
+      "beschützte",
+      "beschütztest",
+      "beschützte",
+      "beschützten",
+      "beschütztet",
+      "beschützten"
+    ],
     "perfekt": "hat beschützt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "servieren",
@@ -848,8 +1579,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "serviere",
+      "servierst",
+      "serviert",
+      "servieren",
+      "serviert",
+      "servieren"
+    ],
+    "konjugation_preteritum": [
+      "servierte",
+      "serviertest",
+      "servierte",
+      "servierten",
+      "serviertet",
+      "servierten"
+    ],
     "perfekt": "hat serviert",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "leeren",
@@ -857,8 +1605,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "leere",
+      "leerest",
+      "leert",
+      "leeren",
+      "leert",
+      "leeren"
+    ],
+    "konjugation_preteritum": [
+      "leerte",
+      "leertest",
+      "leerte",
+      "leerten",
+      "leertet",
+      "leerten"
+    ],
     "perfekt": "hat geleert",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Angaben prüfen",
@@ -868,12 +1633,29 @@
   },
   {
     "word": "einsammeln",
-    "translation": "to collect, to gather up",
+    "translation": "to collect",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "sammle ein",
+      "sammelst ein",
+      "sammelt ein",
+      "sammeln ein",
+      "sammelt ein",
+      "sammeln ein"
+    ],
+    "konjugation_preteritum": [
+      "sammelte ein",
+      "sammeltest ein",
+      "sammelte ein",
+      "sammelten ein",
+      "sammeltet ein",
+      "sammelten ein"
+    ],
     "perfekt": "hat eingesammelt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "bestellen",
@@ -881,8 +1663,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "bestelle",
+      "bestellst",
+      "bestellt",
+      "bestellen",
+      "bestellt",
+      "bestellen"
+    ],
+    "konjugation_preteritum": [
+      "bestellte",
+      "bestelltest",
+      "bestellte",
+      "bestellten",
+      "bestelltet",
+      "bestellten"
+    ],
     "perfekt": "hat bestellt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "transportieren",
@@ -890,8 +1689,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "transportiere",
+      "transportierst",
+      "transportiert",
+      "transportieren",
+      "transportiert",
+      "transportieren"
+    ],
+    "konjugation_preteritum": [
+      "transportierte",
+      "transportiertest",
+      "transportierte",
+      "transportierten",
+      "transportiertet",
+      "transportierten"
+    ],
     "perfekt": "hat transportiert",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "die Spezialität probieren",
@@ -900,22 +1716,56 @@
     "date_added": "2026-01-01"
   },
   {
-    "word": "sauber machen",
+    "word": "saubermachen",
     "translation": "to clean",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "mache sauber",
+      "machst sauber",
+      "macht sauber",
+      "machen sauber",
+      "macht sauber",
+      "machen sauber"
+    ],
+    "konjugation_preteritum": [
+      "machte sauber",
+      "machtest sauber",
+      "machte sauber",
+      "machten sauber",
+      "machtet sauber",
+      "machten sauber"
+    ],
     "perfekt": "hat sauber gemacht",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "ausfüllen",
-    "translation": "to fill out, to fill in",
+    "translation": "to fill out",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "fülle aus",
+      "füllst aus",
+      "füllt aus",
+      "füllen aus",
+      "füllt aus",
+      "füllen aus"
+    ],
+    "konjugation_preteritum": [
+      "füllte aus",
+      "fülltest aus",
+      "füllte aus",
+      "füllten aus",
+      "fülltet aus",
+      "füllten aus"
+    ],
     "perfekt": "hat ausgefüllt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "aufräumen",
@@ -923,8 +1773,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "räume auf",
+      "räumst auf",
+      "räumt auf",
+      "räumen auf",
+      "räumt auf",
+      "räumen auf"
+    ],
+    "konjugation_preteritum": [
+      "räumte auf",
+      "räumtest auf",
+      "räumte auf",
+      "räumten auf",
+      "räumtet auf",
+      "räumten auf"
+    ],
     "perfekt": "hat aufgeräumt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "bedienen",
@@ -932,17 +1799,51 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "bediene",
+      "bedienst",
+      "bedient",
+      "bedienen",
+      "bedient",
+      "bedienen"
+    ],
+    "konjugation_preteritum": [
+      "bediente",
+      "bedientest",
+      "bediente",
+      "bedienten",
+      "bedientet",
+      "bedienten"
+    ],
     "perfekt": "hat bedient",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "pflegen",
-    "translation": "to care for, to maintain",
+    "translation": "to care for",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "pflege",
+      "pflegst",
+      "pflegt",
+      "pflegen",
+      "pflegt",
+      "pflegen"
+    ],
+    "konjugation_preteritum": [
+      "pflegte",
+      "pflegtest",
+      "pflegte",
+      "pflegten",
+      "pflegtet",
+      "pflegten"
+    ],
     "perfekt": "hat gepflegt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "genehmigen",
@@ -950,8 +1851,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "genehmige",
+      "genehmigst",
+      "genehmigt",
+      "genehmigen",
+      "genehmigt",
+      "genehmigen"
+    ],
+    "konjugation_preteritum": [
+      "genehmigte",
+      "genehmigtest",
+      "genehmigte",
+      "genehmigten",
+      "genehmigtet",
+      "genehmigten"
+    ],
     "perfekt": "hat genehmigt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Gast",
@@ -1109,8 +2027,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "grüße",
+      "grüßt",
+      "grüßt",
+      "grüßen",
+      "grüßt",
+      "grüßen"
+    ],
+    "konjugation_preteritum": [
+      "grüßte",
+      "grüßtest",
+      "grüßte",
+      "grüßten",
+      "grüßtet",
+      "grüßten"
+    ],
     "perfekt": "hat gegrüßt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "an die Natur denken",
@@ -1124,8 +2059,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erledige",
+      "erledigst",
+      "erledigt",
+      "erledigen",
+      "erledigt",
+      "erledigen"
+    ],
+    "konjugation_preteritum": [
+      "erledigte",
+      "erledigtest",
+      "erledigte",
+      "erledigten",
+      "erledigtet",
+      "erledigten"
+    ],
     "perfekt": "hat erledigt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Lohn",
@@ -1265,12 +2217,29 @@
   },
   {
     "word": "zuhören",
-    "translation": "to listen",
+    "translation": "to listen (to)",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
-    "perfekt": "hat zugehört",
-    "date_added": "2026-01-01"
+    "verb_type": "weak",
+    "konjugation_present": [
+      "höre zu",
+      "hörst zu",
+      "hört zu",
+      "hören zu",
+      "hört zu",
+      "hören zu"
+    ],
+    "konjugation_preteritum": [
+      "hörte zu",
+      "hörtest zu",
+      "hörte zu",
+      "hörten zu",
+      "hörtet zu",
+      "hörten zu"
+    ],
+    "perfekt": "habe zugehört",
+    "date_added": "2026-07-17"
   },
   {
     "word": "erzählen",
@@ -1278,8 +2247,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erzähle",
+      "erzählst",
+      "erzählt",
+      "erzählen",
+      "erzählt",
+      "erzählen"
+    ],
+    "konjugation_preteritum": [
+      "erzählte",
+      "erzähltest",
+      "erzählte",
+      "erzählten",
+      "erzähltert",
+      "erzählten"
+    ],
     "perfekt": "hat erzählt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "langsam",
@@ -1299,17 +2285,51 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "werde",
+      "wirst",
+      "wird",
+      "werden",
+      "werdet",
+      "werden"
+    ],
+    "konjugation_preteritum": [
+      "wurde",
+      "wurdest",
+      "wurde",
+      "wurden",
+      "wurdet",
+      "wurden"
+    ],
     "perfekt": "ist geworden",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "züchten",
-    "translation": "to raise, to farm, to cultivate, to breed",
+    "translation": "to breed",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "züchte",
+      "züchtest",
+      "züchtet",
+      "züchten",
+      "züchtet",
+      "züchten"
+    ],
+    "konjugation_preteritum": [
+      "züchtete",
+      "züchtetest",
+      "züchtete",
+      "züchteten",
+      "züchtetet",
+      "züchteten"
+    ],
     "perfekt": "hat gezüchtet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Softwareentwickler",
@@ -1323,19 +2343,53 @@
     "word": "vorbereiten",
     "translation": "to prepare",
     "part_of_speech": "verb",
-    "reflexive": true,
+    "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "bereite vor",
+      "bereitest vor",
+      "bereitet vor",
+      "bereiten vor",
+      "bereitet vor",
+      "bereiten vor"
+    ],
+    "konjugation_preteritum": [
+      "bereitete vor",
+      "bereitetest vor",
+      "bereitete vor",
+      "bereiteten vor",
+      "bereitetet vor",
+      "bereiteten vor"
+    ],
     "perfekt": "hat vorbereitet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "stören",
-    "translation": "to disturb, to bother",
+    "translation": "to disturb",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "störe",
+      "störst",
+      "stört",
+      "stören",
+      "stört",
+      "stören"
+    ],
+    "konjugation_preteritum": [
+      "störte",
+      "störtest",
+      "störte",
+      "störten",
+      "störtet",
+      "störten"
+    ],
     "perfekt": "hat gestört",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "ausmachen",
@@ -1343,8 +2397,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "mache aus",
+      "machst aus",
+      "macht aus",
+      "machen aus",
+      "macht aus",
+      "machen aus"
+    ],
+    "konjugation_preteritum": [
+      "machte aus",
+      "machtest aus",
+      "machte aus",
+      "machten aus",
+      "machtet aus",
+      "machten aus"
+    ],
     "perfekt": "hat ausgemacht",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "zumachen",
@@ -1352,8 +2423,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "mache zu",
+      "machst zu",
+      "macht zu",
+      "machen zu",
+      "macht zu",
+      "machen zu"
+    ],
+    "konjugation_preteritum": [
+      "machte zu",
+      "machtest zu",
+      "machte zu",
+      "machten zu",
+      "machtet zu",
+      "machten zu"
+    ],
     "perfekt": "hat zugemacht",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "vorher",
@@ -1375,8 +2463,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "lege bereit",
+      "legst bereit",
+      "legt bereit",
+      "legen bereit",
+      "legt bereit",
+      "legen bereit"
+    ],
+    "konjugation_preteritum": [
+      "legte bereit",
+      "legtest bereit",
+      "legte bereit",
+      "legten bereit",
+      "legtet bereit",
+      "legten bereit"
+    ],
     "perfekt": "hat bereitgelegt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "sofort",
@@ -1406,8 +2511,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "lächle",
+      "lächelst",
+      "lächelt",
+      "lächeln",
+      "lächelt",
+      "lächeln"
+    ],
+    "konjugation_preteritum": [
+      "lächelte",
+      "lächeltest",
+      "lächelte",
+      "lächelten",
+      "lächeltet",
+      "lächelten"
+    ],
     "perfekt": "hat gelächelt",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Geschäftsreise",
@@ -1423,8 +2545,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "notiere",
+      "notierst",
+      "notiert",
+      "notieren",
+      "notiert",
+      "notieren"
+    ],
+    "konjugation_preteritum": [
+      "notierte",
+      "notiertest",
+      "notierte",
+      "notierten",
+      "notiertet",
+      "notierten"
+    ],
     "perfekt": "hat notiert",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Bahnhofshalle",
@@ -1528,8 +2667,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "fahre ab",
+      "fährst ab",
+      "fährt ab",
+      "fahren ab",
+      "fahrt ab",
+      "fahren ab"
+    ],
+    "konjugation_preteritum": [
+      "fuhr ab",
+      "fuhrst ab",
+      "fuhr ab",
+      "fuhren ab",
+      "fuhrt ab",
+      "fuhren ab"
+    ],
     "perfekt": "ist abgefahren",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Abfahrt",
@@ -1569,8 +2725,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": true,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "komme an",
+      "kommst an",
+      "kommt an",
+      "kommen an",
+      "kommt an",
+      "kommen an"
+    ],
+    "konjugation_preteritum": [
+      "kam an",
+      "kamst an",
+      "kam an",
+      "kamen an",
+      "kamt an",
+      "kamen an"
+    ],
     "perfekt": "ist angekommen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Ankunft",
@@ -1594,8 +2767,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "warte",
+      "wartest",
+      "wartet",
+      "warten",
+      "wartet",
+      "warten"
+    ],
+    "konjugation_preteritum": [
+      "wartete",
+      "wartetest",
+      "wartete",
+      "warteten",
+      "wartetet",
+      "warteten"
+    ],
     "perfekt": "hat gewartet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "hinter",
@@ -1605,21 +2795,81 @@
   },
   {
     "word": "tragen",
-    "translation": "to carry, to wear",
+    "translation": "to carry",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "trage",
+      "trägst",
+      "trägt",
+      "tragen",
+      "tragt",
+      "tragen"
+    ],
+    "konjugation_preteritum": [
+      "trug",
+      "trugst",
+      "trug",
+      "trugen",
+      "trugt",
+      "trugen"
+    ],
     "perfekt": "hat getragen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "achten",
-    "translation": "to respect, to pay attention to",
+    "translation": "to respect, to pay attention",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "achte",
+      "achtest",
+      "achtet",
+      "achten",
+      "achtet",
+      "achten"
+    ],
+    "konjugation_preteritum": [
+      "achtete",
+      "achtetest",
+      "achtete",
+      "achteten",
+      "achtetet",
+      "achteten"
+    ],
     "perfekt": "hat geachtet",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "achten",
+    "translation": "to pay attention to",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "achte",
+      "achtest",
+      "achtet",
+      "achten",
+      "achtet",
+      "achten"
+    ],
+    "konjugation_preteritum": [
+      "achtete",
+      "achtetest",
+      "achtete",
+      "achteten",
+      "achtetet",
+      "achteten"
+    ],
+    "perfekt": "hat geachtet",
+    "date_added": "2026-07-17"
   },
   {
     "word": "Kasus",
@@ -1631,12 +2881,29 @@
   },
   {
     "word": "liegen",
-    "translation": "to lie (be situated, to be located)",
+    "translation": "to lie (be situated, recline)",
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "liege",
+      "liegst",
+      "liegt",
+      "liegen",
+      "liegt",
+      "liegen"
+    ],
+    "konjugation_preteritum": [
+      "lag",
+      "lagst",
+      "lag",
+      "lagen",
+      "lagt",
+      "lagen"
+    ],
     "perfekt": "hat gelegen",
-    "date_added": "2026-01-01"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Brücke",
@@ -1812,8 +3079,25 @@
     "part_of_speech": "verb",
     "reflexive": false,
     "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "pflanze",
+      "pflanzt",
+      "pflanzt",
+      "pflanzen",
+      "pflanzt",
+      "pflanzen"
+    ],
+    "konjugation_preteritum": [
+      "pflanzte",
+      "pflanztest",
+      "pflanzte",
+      "pflanzten",
+      "pflanztet",
+      "pflanzten"
+    ],
     "perfekt": "hat gepflanzt",
-    "date_added": "2026-06-24"
+    "date_added": "2026-07-17"
   },
   {
     "word": "Blume",
@@ -1854,5 +3138,2197 @@
     "article": "das",
     "plural": "Kleider",
     "date_added": "2026-06-26"
+  },
+  {
+    "word": "Jacke",
+    "translation": "jacket",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Jacken",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Text",
+    "translation": "text",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Texte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "suchen",
+    "translation": "to search, to look for",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "suche",
+      "suchst",
+      "sucht",
+      "suchen",
+      "sucht",
+      "suchen"
+    ],
+    "konjugation_preteritum": [
+      "suchte",
+      "suchtest",
+      "suchte",
+      "suchten",
+      "suchtet",
+      "suchten"
+    ],
+    "perfekt": "hat gesucht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "ergänzen",
+    "translation": "to complement, to complete, to add",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ergänze",
+      "ergänzt",
+      "ergänzt",
+      "ergänzen",
+      "ergänzt",
+      "ergänzen"
+    ],
+    "konjugation_preteritum": [
+      "ergänzte",
+      "ergänztest",
+      "ergänzte",
+      "ergänzten",
+      "ergänztet",
+      "ergänzten"
+    ],
+    "perfekt": "hat ergänzt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Abend",
+    "translation": "evening",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Abende",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Hotel",
+    "translation": "hotel",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Hotels",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Tag",
+    "translation": "day",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Tage",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Kollegin",
+    "translation": "female colleague",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Kolleginnen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Präsentation",
+    "translation": "presentation",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Präsentationen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Fahrradtour",
+    "translation": "bike tour",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Fahrradtouren",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Film",
+    "translation": "film",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Filme",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Café",
+    "translation": "café",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Cafés",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Pause",
+    "translation": "break, pause",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Pausen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "ziehen",
+    "translation": "to pull",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "ziehe",
+      "ziehst",
+      "zieht",
+      "ziehen",
+      "zieht",
+      "ziehen"
+    ],
+    "konjugation_preteritum": [
+      "zog",
+      "zogst",
+      "zog",
+      "zogen",
+      "zogen",
+      "zogen"
+    ],
+    "perfekt": "hat gezogen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "spannend",
+    "translation": "exciting",
+    "part_of_speech": "adjective",
+    "comparative": "spannender",
+    "superlative": "am spannendsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "langweilig",
+    "translation": "boring",
+    "part_of_speech": "adjective",
+    "comparative": "langweiliger",
+    "superlative": "am langweiligsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Land",
+    "translation": "country",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Länder",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Stadt",
+    "translation": "city",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Städte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Museum",
+    "translation": "museum",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Museen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Wohnung",
+    "translation": "apartment",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Wohnungen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Ort",
+    "translation": "place",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Orte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Strand",
+    "translation": "beach",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Strände",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Kind",
+    "translation": "child",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Kinder",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Sänger",
+    "translation": "singer",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Sänger",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Traumberuf",
+    "translation": "dream job",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Traumberufe",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Tätigkeit",
+    "translation": "activity",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Tätigkeiten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Berufswechsel",
+    "translation": "career change",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Berufswechsel",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "beruflich",
+    "translation": "professional, occupational",
+    "part_of_speech": "adjective",
+    "comparative": "beruflicher",
+    "superlative": "am beruflichsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Studium",
+    "translation": "studies",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Studien",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Übersetzerin",
+    "translation": "female translator",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Übersetzerinnen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "fast",
+    "translation": "almost",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Umwelt",
+    "translation": "environment",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Umwelten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Chance nutzen",
+    "translation": "to seize an opportunity",
+    "part_of_speech": "other",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "wahr",
+    "translation": "true",
+    "part_of_speech": "adjective",
+    "comparative": "wahrer",
+    "superlative": "am wahrsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Laden",
+    "translation": "shop, store",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Läden",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "nun",
+    "translation": "now",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Lebensmittel",
+    "translation": "food, groceries",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Lebensmittel",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Verpackung",
+    "translation": "packaging",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Verpackungen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "selbständig",
+    "translation": "independent, self-employed",
+    "part_of_speech": "adjective",
+    "comparative": "selbständiger",
+    "superlative": "am selbständigsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Risiko",
+    "translation": "risk",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Risiken",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "bereuen",
+    "translation": "to regret",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "bereue",
+      "bereust",
+      "bereut",
+      "bereuen",
+      "bereut",
+      "bereuen"
+    ],
+    "konjugation_preteritum": [
+      "bereute",
+      "bereutest",
+      "bereute",
+      "bereuten",
+      "bereutet",
+      "bereuten"
+    ],
+    "perfekt": "hat bereut",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "auf keinen Fall",
+    "translation": "under no circumstances",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "eigen",
+    "translation": "own",
+    "part_of_speech": "adjective",
+    "comparative": "eigener",
+    "superlative": "am eigensten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Rente",
+    "translation": "pension, retirement payment",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Renten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "studieren",
+    "translation": "to study (at a university)",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "studiere",
+      "studierst",
+      "studiert",
+      "studieren",
+      "studiert",
+      "studieren"
+    ],
+    "konjugation_preteritum": [
+      "studierte",
+      "studiertest",
+      "studierte",
+      "studierten",
+      "studiertet",
+      "studierten"
+    ],
+    "perfekt": "hat studiert",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Medizin",
+    "translation": "medicine",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Medizinen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Herzchirurg",
+    "translation": "cardiac surgeon",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Herzchirurgen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Oberarzt",
+    "translation": "senior physician",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Oberärzte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Leiter",
+    "translation": "ladder; leader",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Leitern",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "aufhören",
+    "translation": "to stop",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "höre auf",
+      "hörst auf",
+      "hört auf",
+      "hören auf",
+      "hört auf",
+      "hören auf"
+    ],
+    "konjugation_preteritum": [
+      "hörte auf",
+      "hörtest auf",
+      "hörte auf",
+      "hörten auf",
+      "hörtet auf",
+      "hörten auf"
+    ],
+    "perfekt": "hat aufgehört",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "erfolgreich",
+    "translation": "successful",
+    "part_of_speech": "adjective",
+    "comparative": "erfolgreicher",
+    "superlative": "erfolgreichsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Kleidung",
+    "translation": "clothing",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Kleidungen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "gegen",
+    "translation": "against",
+    "part_of_speech": "other",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "tauschen",
+    "translation": "to exchange",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "tausche",
+      "tauschst",
+      "tauscht",
+      "tauschen",
+      "tauscht",
+      "tauschen"
+    ],
+    "konjugation_preteritum": [
+      "tauschte",
+      "tauschtest",
+      "tauschte",
+      "tauschten",
+      "tauschtet",
+      "tauschten"
+    ],
+    "perfekt": "hat getauscht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Fernfahrer",
+    "translation": "long-distance driver",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Fernfahrer",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "wenig",
+    "translation": "little, few",
+    "part_of_speech": "adjective",
+    "comparative": "weniger",
+    "superlative": "am wenigsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Gehalt",
+    "translation": "salary, content",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Gehälter",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Entscheidung",
+    "translation": "decision",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Entscheidungen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Freiheit",
+    "translation": "freedom",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Freiheiten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Lastwagen",
+    "translation": "truck",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Lastwagen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Aufgabe",
+    "translation": "task, assignment, exercise",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Aufgaben",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "zuordnen",
+    "translation": "to assign",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "ordne zu",
+      "ordnest zu",
+      "ordnet zu",
+      "ordnen zu",
+      "ordnet zu",
+      "ordnen zu"
+    ],
+    "konjugation_preteritum": [
+      "ordnete zu",
+      "ordnetest zu",
+      "ordnete zu",
+      "ordneten zu",
+      "ordnetet zu",
+      "ordneten zu"
+    ],
+    "perfekt": "hat zugeordnet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "verdienen",
+    "translation": "to earn",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "regular",
+    "konjugation_present": [
+      "verdiene",
+      "verdienst",
+      "verdient",
+      "verdienen",
+      "verdient",
+      "verdienen"
+    ],
+    "konjugation_preteritum": [
+      "verdiente",
+      "verdientest",
+      "verdiente",
+      "verdienten",
+      "verdientet",
+      "verdienten"
+    ],
+    "perfekt": "hat verdient",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "worüber",
+    "translation": "about what",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "ankreuzen",
+    "translation": "to tick, to check (a box)",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "kreuze an",
+      "kreuzt an",
+      "kreuzt an",
+      "kreuzen an",
+      "kreuzt an",
+      "kreuzen an"
+    ],
+    "konjugation_preteritum": [
+      "kreuzte an",
+      "kreuztest an",
+      "kreuzte an",
+      "kreuzten an",
+      "kreuztet an",
+      "kreuzten an"
+    ],
+    "perfekt": "hat angekreuzt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Arbeitszeit",
+    "translation": "working hours",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Arbeitszeiten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Unterricht",
+    "translation": "lesson; instruction; teaching",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Unterrichte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "wechseln",
+    "translation": "to change",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "wechsle",
+      "wechselst",
+      "wechselt",
+      "wechseln",
+      "wechselt",
+      "wechseln"
+    ],
+    "konjugation_preteritum": [
+      "wechselte",
+      "wechseltest",
+      "wechselte",
+      "wechselten",
+      "wechseltet",
+      "wechselten"
+    ],
+    "perfekt": "hat gewechselt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "eigentlich",
+    "translation": "actually",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Labor",
+    "translation": "laboratory",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Labore",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "gleich",
+    "translation": "equal; immediately; same",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Ganztag",
+    "translation": "whole day",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Ganztage",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "vorstellen",
+    "translation": "to introduce, to imagine",
+    "part_of_speech": "verb",
+    "reflexive": true,
+    "separable": true,
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "stelle vor",
+      "stellst vor",
+      "stellt vor",
+      "stellen vor",
+      "stellt vor",
+      "stellen vor"
+    ],
+    "konjugation_preteritum": [
+      "stellte vor",
+      "stelltest vor",
+      "stellte vor",
+      "stellten vor",
+      "stelltet vor",
+      "stellten vor"
+    ],
+    "perfekt": "hat vorgestellt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "anstrengend",
+    "translation": "exhausting",
+    "part_of_speech": "adjective",
+    "comparative": "anstrengender",
+    "superlative": "am anstrengendsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "zwischen",
+    "translation": "between",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Bereich",
+    "translation": "area, sector, field",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Bereiche",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "gefährlich",
+    "translation": "dangerous",
+    "part_of_speech": "adjective",
+    "comparative": "gefährlicher",
+    "superlative": "am gefährlichsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Unfall",
+    "translation": "accident",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Unfälle",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Lehre",
+    "translation": "teaching; apprenticeship; doctrine",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Lehren",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "zum Schluss",
+    "translation": "in conclusion",
+    "part_of_speech": "other",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "deshalb",
+    "translation": "therefore",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Unterrichtsstunde",
+    "translation": "lesson",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Unterrichtsstunden",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "korrigieren",
+    "translation": "to correct",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "korrigiere",
+      "korrigierst",
+      "korrigiert",
+      "korrigieren",
+      "korrigiert",
+      "korrigieren"
+    ],
+    "konjugation_preteritum": [
+      "korrigierte",
+      "korrigiertest",
+      "korrigierte",
+      "korrigierten",
+      "korrigiertet",
+      "korrigierten"
+    ],
+    "perfekt": "hat korrigiert",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "pendeln",
+    "translation": "to commute",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "pendle",
+      "pendelst",
+      "pendelt",
+      "pendeln",
+      "pendelt",
+      "pendeln"
+    ],
+    "konjugation_preteritum": [
+      "pendelte",
+      "pendeltest",
+      "pendelte",
+      "pendelten",
+      "pendeltet",
+      "pendelten"
+    ],
+    "perfekt": "ist gependelt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "erreichen",
+    "translation": "to reach",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erreiche",
+      "erreichst",
+      "erreicht",
+      "erreichen",
+      "erreicht",
+      "erreichen"
+    ],
+    "konjugation_preteritum": [
+      "erreichte",
+      "erreichtest",
+      "erreichte",
+      "erreichten",
+      "erreichtet",
+      "erreichten"
+    ],
+    "perfekt": "hat erreicht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Hinfahrt",
+    "translation": "outward journey (journey there)",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Hinfahrten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Gang",
+    "translation": "corridor, aisle, gait, gear",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Gänge",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "verbinden",
+    "translation": "to connect",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "verbinde",
+      "verbindest",
+      "verbindet",
+      "verbinden",
+      "verbindet",
+      "verbinden"
+    ],
+    "konjugation_preteritum": [
+      "verband",
+      "verbandst",
+      "verband",
+      "verbanden",
+      "verbandet",
+      "verbanden"
+    ],
+    "perfekt": "hat verbunden",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "versprechen",
+    "translation": "to promise",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "verspreche",
+      "versprichst",
+      "verspricht",
+      "versprechen",
+      "versprecht",
+      "versprechen"
+    ],
+    "konjugation_preteritum": [
+      "versprach",
+      "versprachst",
+      "versprach",
+      "versprachen",
+      "verspracht",
+      "versprachen"
+    ],
+    "perfekt": "hat versprochen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "verlassen",
+    "translation": "to leave",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "verlasse",
+      "verläßt",
+      "verläßt",
+      "verlassen",
+      "verlasst",
+      "verlassen"
+    ],
+    "konjugation_preteritum": [
+      "verließ",
+      "verließest",
+      "verließ",
+      "verließen",
+      "verließt",
+      "verließen"
+    ],
+    "perfekt": "hat verlassen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "verstehen",
+    "translation": "to understand",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "verstehe",
+      "verstehst",
+      "versteht",
+      "verstehen",
+      "versteht",
+      "verstehen"
+    ],
+    "konjugation_preteritum": [
+      "verstand",
+      "verstandest",
+      "verstand",
+      "verstanden",
+      "verstandet",
+      "verstanden"
+    ],
+    "perfekt": "hat verstanden",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "hinterlassen",
+    "translation": "to leave behind",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "hinterlasse",
+      "hinterlässt",
+      "hinterlässt",
+      "hinterlassen",
+      "hinterlasst",
+      "hinterlassen"
+    ],
+    "konjugation_preteritum": [
+      "hinterließ",
+      "hinterließest",
+      "hinterließ",
+      "hinterließen",
+      "hinterließt",
+      "hinterließen"
+    ],
+    "perfekt": "hat hinterlassen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "befristen",
+    "translation": "to limit (in time), to set a time limit",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "befriste",
+      "befristest",
+      "befristet",
+      "befristen",
+      "befristet",
+      "befristen"
+    ],
+    "konjugation_preteritum": [
+      "befristete",
+      "befristetest",
+      "befristete",
+      "befristeten",
+      "befristetet",
+      "befristeten"
+    ],
+    "perfekt": "hat befristet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Couch",
+    "translation": "couch",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Couches",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "bestehen",
+    "translation": "to exist; to pass (an exam); to insist",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "bestehe",
+      "bestehst",
+      "besteht",
+      "bestehen",
+      "besteht",
+      "bestehen"
+    ],
+    "konjugation_preteritum": [
+      "bestand",
+      "bestandest",
+      "bestand",
+      "bestanden",
+      "bestandet",
+      "bestanden"
+    ],
+    "perfekt": "hat bestanden",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "berichten",
+    "translation": "to report",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "berichte",
+      "berichtest",
+      "berichtet",
+      "berichten",
+      "berichtet",
+      "berichten"
+    ],
+    "konjugation_preteritum": [
+      "berichtete",
+      "berichtetest",
+      "berichtete",
+      "berichteten",
+      "berichtetet",
+      "berichteten"
+    ],
+    "perfekt": "hat berichtet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Kaninchen",
+    "translation": "rabbit",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "die Kaninchen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "verlieren",
+    "translation": "to lose",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "verliere",
+      "verlierst",
+      "verliert",
+      "verlieren",
+      "verliert",
+      "verlieren"
+    ],
+    "konjugation_preteritum": [
+      "verlor",
+      "verlorst",
+      "verlor",
+      "verloren",
+      "verlort",
+      "verloren"
+    ],
+    "perfekt": "hat verloren",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Diebstahl",
+    "translation": "theft",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Diebstähle",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "melden",
+    "translation": "to report",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "melde",
+      "meldest",
+      "meldet",
+      "melden",
+      "meldet",
+      "melden"
+    ],
+    "konjugation_preteritum": [
+      "meldete",
+      "meldetest",
+      "meldete",
+      "meldeten",
+      "meldetet",
+      "meldeten"
+    ],
+    "perfekt": "hat gemeldet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "abholen",
+    "translation": "to pick up",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "hole ab",
+      "holst ab",
+      "holt ab",
+      "holen ab",
+      "holt ab",
+      "holen ab"
+    ],
+    "konjugation_preteritum": [
+      "holte ab",
+      "holtest ab",
+      "holte ab",
+      "holten ab",
+      "holtet ab",
+      "holten ab"
+    ],
+    "perfekt": "hat abgeholt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Möglichkeit",
+    "translation": "possibility",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Möglichkeiten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Konto",
+    "translation": "account",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Konten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "eröffnen",
+    "translation": "to open, to inaugurate",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "eröffne",
+      "eröffnest",
+      "eröffnet",
+      "eröffnen",
+      "eröffnet",
+      "eröffnen"
+    ],
+    "konjugation_preteritum": [
+      "eröffnete",
+      "eröffnetest",
+      "eröffnete",
+      "eröffneten",
+      "eröffnetet",
+      "eröffneten"
+    ],
+    "perfekt": "hat eröffnet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "prüfen",
+    "translation": "to check, to examine",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "prüfe",
+      "prüfst",
+      "prüft",
+      "prüfen",
+      "prüft",
+      "prüfen"
+    ],
+    "konjugation_preteritum": [
+      "prüfte",
+      "prüftest",
+      "prüfte",
+      "prüften",
+      "prüftet",
+      "prüften"
+    ],
+    "perfekt": "hat geprüft",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "anreichen",
+    "translation": "to hand over",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "reiche an",
+      "reichst an",
+      "reicht an",
+      "reichen an",
+      "reicht an",
+      "reichen an"
+    ],
+    "konjugation_preteritum": [
+      "reichte an",
+      "reichtest an",
+      "reichte an",
+      "reichten an",
+      "reichtet an",
+      "reichten an"
+    ],
+    "perfekt": "hat angereicht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "abheben",
+    "translation": "to take off",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "hebe ab",
+      "hebst ab",
+      "hebt ab",
+      "heben ab",
+      "hebt ab",
+      "heben ab"
+    ],
+    "konjugation_preteritum": [
+      "hob ab",
+      "hobst ab",
+      "hob ab",
+      "hoben ab",
+      "hobt ab",
+      "hoben ab"
+    ],
+    "perfekt": "hat abgehoben",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Berufswunsch",
+    "translation": "career aspiration",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Berufswünsche",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "beenden",
+    "translation": "to end, to finish",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "beende",
+      "beendest",
+      "beendet",
+      "beenden",
+      "beendet",
+      "beenden"
+    ],
+    "konjugation_preteritum": [
+      "beendete",
+      "beendetest",
+      "beendete",
+      "beendeten",
+      "beendetet",
+      "beendeten"
+    ],
+    "perfekt": "hat beendet",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Rhabarber",
+    "translation": "rhubarb",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Rhabarber",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "schauen",
+    "translation": "to look",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "schaue",
+      "schaust",
+      "schaut",
+      "schauen",
+      "schaut",
+      "schauen"
+    ],
+    "konjugation_preteritum": [
+      "schaute",
+      "schautest",
+      "schaute",
+      "schauten",
+      "schautet",
+      "schauten"
+    ],
+    "perfekt": "hat geschaut",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "empfehlen",
+    "translation": "to recommend",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "empfehle",
+      "empfiehlst",
+      "empfiehlt",
+      "empfehlen",
+      "empfehlt",
+      "empfehlen"
+    ],
+    "konjugation_preteritum": [
+      "empfahl",
+      "empfahlst",
+      "empfahl",
+      "empfahlen",
+      "empfahlt",
+      "empfahlen"
+    ],
+    "perfekt": "hat empfohlen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Hafen",
+    "translation": "harbor",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Häfen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "besichtigen",
+    "translation": "to visit, to inspect, to view",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "besichtige",
+      "besichtigst",
+      "besichtigt",
+      "besichtigen",
+      "besichtigt",
+      "besichtigen"
+    ],
+    "konjugation_preteritum": [
+      "besichtigte",
+      "besichtigtest",
+      "besichtigte",
+      "besichtigten",
+      "besichtigtet",
+      "besichtigten"
+    ],
+    "perfekt": "hat besichtigt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "höflich",
+    "translation": "polite",
+    "part_of_speech": "adjective",
+    "comparative": "höflicher",
+    "superlative": "am höflichsten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Boden",
+    "translation": "floor; ground; soil",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Böden",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Pech",
+    "translation": "bad luck",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Peche",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "nicht im Haus",
+    "translation": "not in the house",
+    "part_of_speech": "other",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Aufenthalt",
+    "translation": "stay",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Aufenthalte",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Veranstaltung",
+    "translation": "event",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Veranstaltungen",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "meckern",
+    "translation": "to complain",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "meckere",
+      "meckerst",
+      "meckert",
+      "meckern",
+      "meckert",
+      "meckern"
+    ],
+    "konjugation_preteritum": [
+      "meckerte",
+      "meckertest",
+      "meckerte",
+      "meckerten",
+      "meckertet",
+      "meckerten"
+    ],
+    "perfekt": "hat gemeckert",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "entspannt",
+    "translation": "relaxed",
+    "part_of_speech": "adjective",
+    "comparative": "entspannter",
+    "superlative": "am entspanntesten",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Nachtisch",
+    "translation": "dessert",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Nachtische",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "stundenlang",
+    "translation": "for hours",
+    "part_of_speech": "adverb",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "schmücken",
+    "translation": "to decorate",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "schmücke",
+      "schmückst",
+      "schmückt",
+      "schmücken",
+      "schmückt",
+      "schmücken"
+    ],
+    "konjugation_preteritum": [
+      "schmückte",
+      "schmücktest",
+      "schmückte",
+      "schmückten",
+      "schmücktet",
+      "schmückten"
+    ],
+    "perfekt": "hat geschmückt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "erfragen",
+    "translation": "to inquire",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "erfrage",
+      "erfragst",
+      "erfragt",
+      "erfragen",
+      "erfragt",
+      "erfragen"
+    ],
+    "konjugation_preteritum": [
+      "erfragte",
+      "erfragtest",
+      "erfragte",
+      "erfragten",
+      "erfragtet",
+      "erfragten"
+    ],
+    "perfekt": "hat erfragt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Staub",
+    "translation": "dust",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Stäube",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Stau",
+    "translation": "traffic jam",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Staus",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Verkehr",
+    "translation": "traffic",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Verkehre",
+    "date_added": "2026-07-15"
+  },
+  {
+    "word": "Nachricht",
+    "translation": "message, news",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Nachrichten",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "zurückrufen",
+    "translation": "to call back",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "rufe zurück",
+      "rufst zurück",
+      "ruft zurück",
+      "rufen zurück",
+      "ruft zurück",
+      "rufen zurück"
+    ],
+    "konjugation_preteritum": [
+      "rief zurück",
+      "riefst zurück",
+      "rief zurück",
+      "riefen zurück",
+      "rieft zurück",
+      "riefen zurück"
+    ],
+    "perfekt": "hat zurückgerufen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "nutzen",
+    "translation": "to use",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "nutze",
+      "nutzt",
+      "nutzt",
+      "nutzen",
+      "nutzt",
+      "nutzen"
+    ],
+    "konjugation_preteritum": [
+      "nutzte",
+      "nutztest",
+      "nutzte",
+      "nutzten",
+      "nutzten",
+      "nutzten"
+    ],
+    "perfekt": "hat genutzt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Digitalisierung",
+    "translation": "digitalization",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Digitalisierungen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "sich austauschen",
+    "translation": "to exchange ideas, to communicate",
+    "part_of_speech": "verb",
+    "reflexive": true,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "tausche mich aus",
+      "tauschst dich aus",
+      "tauscht sich aus",
+      "tauschen uns aus",
+      "tauscht euch aus",
+      "tauschen sich aus"
+    ],
+    "konjugation_preteritum": [
+      "tauschte mich aus",
+      "tauschtest dich aus",
+      "tauschte sich aus",
+      "tauschten uns aus",
+      "tauschtet euch aus",
+      "tauschten sich aus"
+    ],
+    "perfekt": "habe mich ausgetauscht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Austausch",
+    "translation": "exchange",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Austausche",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Zusammenarbeit",
+    "translation": "cooperation",
+    "part_of_speech": "noun",
+    "article": "die",
+    "plural": "Zusammenarbeiten",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Ärger",
+    "translation": "anger, trouble, annoyance",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Ärger",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Erlebnis",
+    "translation": "experience",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Erlebnisse",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "erleben",
+    "translation": "to experience",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "erlebe",
+      "erlebst",
+      "erlebt",
+      "erleben",
+      "erlebt",
+      "erleben"
+    ],
+    "konjugation_preteritum": [
+      "erlebte",
+      "erlebtest",
+      "erlebte",
+      "erlebten",
+      "erlebtet",
+      "erlebten"
+    ],
+    "perfekt": "hat erlebt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "umsteigen",
+    "translation": "to change (trains, buses, etc.)",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": true,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "steige um",
+      "steigst um",
+      "steigt um",
+      "steigen um",
+      "steigt um",
+      "steigen um"
+    ],
+    "konjugation_preteritum": [
+      "stieg um",
+      "stiegst um",
+      "stieg um",
+      "stiegen um",
+      "stiegt um",
+      "stiegen um"
+    ],
+    "perfekt": "ist umgestiegen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Sitzplatz",
+    "translation": "seat",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Sitzplätze",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "erreichbar",
+    "translation": "reachable",
+    "part_of_speech": "adjective",
+    "comparative": "erreichbarer",
+    "superlative": "am erreichbarsten",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Fest",
+    "translation": "festival, celebration",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Feste",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "fest",
+    "translation": "firm, solid, fixed",
+    "part_of_speech": "adjective",
+    "comparative": "fester",
+    "superlative": "am festesten",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "vielseitig",
+    "translation": "versatile",
+    "part_of_speech": "adjective",
+    "comparative": "vielseitiger",
+    "superlative": "am vielseitigsten",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Programm",
+    "translation": "program",
+    "part_of_speech": "noun",
+    "article": "das",
+    "plural": "Programme",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "Preis",
+    "translation": "price",
+    "part_of_speech": "noun",
+    "article": "der",
+    "plural": "Preise",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "machen",
+    "translation": "to do, to make",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "weak",
+    "konjugation_present": [
+      "mache",
+      "machst",
+      "macht",
+      "machen",
+      "macht",
+      "machen"
+    ],
+    "konjugation_preteritum": [
+      "machte",
+      "machtest",
+      "machte",
+      "machten",
+      "machtet",
+      "machten"
+    ],
+    "perfekt": "hat gemacht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "kennen",
+    "translation": "to know",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "kenne",
+      "kennst",
+      "kennt",
+      "kennen",
+      "kennt",
+      "kennen"
+    ],
+    "konjugation_preteritum": [
+      "kannte",
+      "kanntest",
+      "kannte",
+      "kannten",
+      "kanntet",
+      "kannten"
+    ],
+    "perfekt": "hat gekannt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "können",
+    "translation": "can, to be able to",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "kann",
+      "kannst",
+      "kann",
+      "können",
+      "könnt",
+      "können"
+    ],
+    "konjugation_preteritum": [
+      "konnte",
+      "konntest",
+      "konnte",
+      "konnten",
+      "konntet",
+      "konnten"
+    ],
+    "perfekt": "hat gekonnt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "wollen",
+    "translation": "to want",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "will",
+      "willst",
+      "will",
+      "wollen",
+      "wollt",
+      "wollen"
+    ],
+    "konjugation_preteritum": [
+      "wollte",
+      "wolltest",
+      "wollte",
+      "wollten",
+      "wolltet",
+      "wollten"
+    ],
+    "perfekt": "hat gewollt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "haben",
+    "translation": "to have",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "habe",
+      "hast",
+      "hat",
+      "haben",
+      "habt",
+      "haben"
+    ],
+    "konjugation_preteritum": [
+      "hatte",
+      "hattest",
+      "hatte",
+      "hatten",
+      "hattet",
+      "hatten"
+    ],
+    "perfekt": "hat gehabt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "sein",
+    "translation": "to be",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "strong",
+    "konjugation_present": [
+      "bin",
+      "bist",
+      "ist",
+      "sind",
+      "seid",
+      "sind"
+    ],
+    "konjugation_preteritum": [
+      "war",
+      "warst",
+      "war",
+      "waren",
+      "wart",
+      "waren"
+    ],
+    "perfekt": "ist gewesen",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "müssen",
+    "translation": "must, to have to",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "muss",
+      "musst",
+      "muss",
+      "müssen",
+      "müsst",
+      "müssen"
+    ],
+    "konjugation_preteritum": [
+      "musste",
+      "musstest",
+      "musste",
+      "mussten",
+      "musstet",
+      "mussten"
+    ],
+    "perfekt": "hat gemusst",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "dürfen",
+    "translation": "to be allowed to, may",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "darf",
+      "darfst",
+      "darf",
+      "dürfen",
+      "dürft",
+      "dürfen"
+    ],
+    "konjugation_preteritum": [
+      "durfte",
+      "durftest",
+      "durfte",
+      "durften",
+      "durftet",
+      "durften"
+    ],
+    "perfekt": "hat gedurft",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "sollen",
+    "translation": "should, to be supposed to",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "soll",
+      "sollst",
+      "soll",
+      "sollen",
+      "sollt",
+      "sollen"
+    ],
+    "konjugation_preteritum": [
+      "sollte",
+      "solltest",
+      "sollte",
+      "sollten",
+      "solltet",
+      "sollten"
+    ],
+    "perfekt": "hat gesollt",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "mögen",
+    "translation": "to like",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "mixed",
+    "konjugation_present": [
+      "mag",
+      "magst",
+      "mag",
+      "mögen",
+      "mögt",
+      "mögen"
+    ],
+    "konjugation_preteritum": [
+      "mochte",
+      "mochtest",
+      "mochte",
+      "mochten",
+      "mochtet",
+      "mochten"
+    ],
+    "perfekt": "hat gemocht",
+    "date_added": "2026-07-17"
+  },
+  {
+    "word": "möchten",
+    "translation": "would like",
+    "part_of_speech": "verb",
+    "reflexive": false,
+    "separable": false,
+    "verb_type": "modal",
+    "konjugation_present": [
+      "möchte",
+      "möchtest",
+      "möchte",
+      "möchten",
+      "möchtet",
+      "möchten"
+    ],
+    "konjugation_preteritum": [
+      "mochte",
+      "mochtest",
+      "mochte",
+      "mochten",
+      "mochtet",
+      "mochten"
+    ],
+    "perfekt": "hat gemocht",
+    "date_added": "2026-07-17"
   }
 ]
